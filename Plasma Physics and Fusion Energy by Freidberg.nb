@@ -1,0 +1,140 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      5793,        132]
+NotebookOptionsPosition[      4657,        104]
+NotebookOutlinePosition[      5124,        121]
+CellTagsIndexPosition[      5081,        118]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["\<\
+Notebook for :  
+Plasma Physics and Fusion Energy by Freidberg\
+\>", "Title",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.},
+ CellChangeTimes->{{3.8217294718661222`*^9, 3.821729502043838*^9}, 
+   3.8217295683553457`*^9, 3.821732221863006*^9, {3.821811203295624*^9, 
+   3.8218112036548367`*^9}, {3.822041768762134*^9, 3.822041781290854*^9}, {
+   3.822048009752109*^9, 3.8220480569607773`*^9}, {3.822504877727007*^9, 
+   3.8225048874039307`*^9}, {3.822565447028533*^9, 3.822565457908236*^9}, {
+   3.822822107930128*^9, 3.822822113128089*^9}, {3.823176459993638*^9, 
+   3.823176470345335*^9}, {3.823359338529508*^9, 3.823359361520629*^9}, {
+   3.823422938182802*^9, 3.823422938584877*^9}, {3.823431880221382*^9, 
+   3.823431897644202*^9}, {3.82343570279051*^9, 3.823435714197551*^9}, {
+   3.8279532410864677`*^9, 3.8279532445579853`*^9}, {3.82795429722185*^9, 
+   3.827954302845343*^9}, {3.827956183129569*^9, 3.8279561871771517`*^9}, 
+   3.8510088216927958`*^9, {3.851065387457584*^9, 3.8510653950417137`*^9}, {
+   3.8510682768154383`*^9, 3.851068280871207*^9}, {3.8510997628523493`*^9, 
+   3.8510997737509108`*^9}, {3.851112556690555*^9, 3.851112614497939*^9}, {
+   3.861873084561179*^9, 3.861873110928751*^9}, 3.861873468099904*^9, {
+   3.862044418961834*^9, 3.862044450225502*^9}, {3.862217840411951*^9, 
+   3.862217846123966*^9}, {3.885642494073176*^9, 3.8856424959454937`*^9}, {
+   3.976563957414098*^9, 3.976563969939114*^9}, {3.9766267383871*^9, 
+   3.976626751346908*^9}, {3.976646073063504*^9, 3.976646083204652*^9}, {
+   3.976646703078002*^9, 3.976646715092963*^9}, {3.976646989344243*^9, 
+   3.976647007420197*^9}, {3.9766472101043797`*^9, 3.976647219914907*^9}},
+ TextAlignment->Center,ExpressionUUID->"4758be8b-3f68-48e4-aa2a-a57559a90854"],
+
+Cell["\<\
+Geoff Cope
+University of Utah
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\|01040f\|01042d\|01044c\|010432\|010442\|010432\
+\|010449\|010445\|01042e\|01043b\|010428 \|010432\|010442 \|01040f\|01042d\
+\|01043b\|01042b
+January 5, 2026\
+\>", "Author",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.},
+ CellChangeTimes->{{3.821729507652328*^9, 3.821729529657844*^9}, 
+   3.8220480097522783`*^9, {3.822048070235491*^9, 3.822048084689715*^9}, {
+   3.8225654346519403`*^9, 3.8225654361641483`*^9}, {3.8231764728567343`*^9, 
+   3.823176482313031*^9}, {3.8233640113399878`*^9, 3.823364023347041*^9}, {
+   3.8234229506702557`*^9, 3.823422956381791*^9}, {3.827953252419902*^9, 
+   3.827953254868108*^9}, {3.851065213363542*^9, 3.8510652255731983`*^9}, {
+   3.8510652620952*^9, 3.851065307413348*^9}, {3.85109882342251*^9, 
+   3.851098834342609*^9}, 3.851112556690649*^9, 3.861873468099978*^9, {
+   3.861874316220215*^9, 3.861874319756319*^9}, {3.976563971664147*^9, 
+   3.976563975864481*^9}, {3.976626768192091*^9, 3.976626768491643*^9}},
+ TextAlignment->Center,ExpressionUUID->"39a689b0-78f9-4caf-8711-9adfab378cb0"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Hyperlink to CUP Link", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.},
+ CellChangeTimes->{{3.976647324973434*^9, 
+  3.976647335688339*^9}},ExpressionUUID->"889fe745-843a-4828-8095-\
+be5079473890"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<Plasma Physics and Fusion Energy by Freidberg\>\"", ",", 
+   "\[IndentingNewLine]", 
+   "\"\<https://www.cambridge.org/core/books/plasma-physics-and-fusion-energy/\
+CD7B530D2889F70446F34E14EE0EF703\>\""}], "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.},
+ CellChangeTimes->{{3.976647311194744*^9, 3.976647329589673*^9}},
+ CellLabel->
+  "In[234]:=",ExpressionUUID->"ab374b91-50d7-4745-9408-b7d8f5b442d3"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"Plasma Physics and Fusion Energy by Freidberg\"", 
+   "https://www.cambridge.org/core/books/plasma-physics-and-fusion-energy/\
+CD7B530D2889F70446F34E14EE0EF703"},
+  "HyperlinkURL"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.},
+ CellChangeTimes->{{3.976647323820854*^9, 3.976647329591524*^9}},
+ CellLabel->
+  "Out[234]=",ExpressionUUID->"cd619dbc-ea12-41ee-89b7-660eaeccf3f7"]
+}, Closed]]
+},
+WindowSize->{1147, 655},
+WindowMargins->{{0, Automatic}, {16, Automatic}},
+FrontEndVersion->"13.0 for Mac OS X x86 (64-bit) (February 4, 2022)",
+StyleDefinitions->FrontEnd`FileName[{"Report"}, "StandardReport.nb", 
+  CharacterEncoding -> "UTF-8"],
+ExpressionUUID->"c195b7e3-825a-4b93-904c-af0f69eb4da8"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 1769, 26, 159, "Title",ExpressionUUID->"4758be8b-3f68-48e4-aa2a-a57559a90854",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.}],
+Cell[2352, 50, 1109, 19, 94, "Author",ExpressionUUID->"39a689b0-78f9-4caf-8711-9adfab378cb0",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.}]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3498, 74, 221, 4, 69, "Section",ExpressionUUID->"889fe745-843a-4828-8095-be5079473890",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
+Cell[3722, 80, 486, 10, 63, "Input",ExpressionUUID->"ab374b91-50d7-4745-9408-b7d8f5b442d3",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
+Cell[4211, 92, 430, 9, 43, "Output",ExpressionUUID->"cd619dbc-ea12-41ee-89b7-660eaeccf3f7",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.}]
+}, Closed]]
+}
+]
+*)
+
