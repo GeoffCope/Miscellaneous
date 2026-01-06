@@ -1,0 +1,417 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     18032,        407]
+NotebookOptionsPosition[     13371,        327]
+NotebookOutlinePosition[     13837,        344]
+CellTagsIndexPosition[     13794,        341]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["\<\
+Notebook for :  
+Principles of Nuclear Rocket Propulsion by Emrich\
+\>", "Title",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.},
+ CellChangeTimes->{{3.8217294718661222`*^9, 3.821729502043838*^9}, 
+   3.8217295683553457`*^9, 3.821732221863006*^9, {3.821811203295624*^9, 
+   3.8218112036548367`*^9}, {3.822041768762134*^9, 3.822041781290854*^9}, {
+   3.822048009752109*^9, 3.8220480569607773`*^9}, {3.822504877727007*^9, 
+   3.8225048874039307`*^9}, {3.822565447028533*^9, 3.822565457908236*^9}, {
+   3.822822107930128*^9, 3.822822113128089*^9}, {3.823176459993638*^9, 
+   3.823176470345335*^9}, {3.823359338529508*^9, 3.823359361520629*^9}, {
+   3.823422938182802*^9, 3.823422938584877*^9}, {3.823431880221382*^9, 
+   3.823431897644202*^9}, {3.82343570279051*^9, 3.823435714197551*^9}, {
+   3.8279532410864677`*^9, 3.8279532445579853`*^9}, {3.82795429722185*^9, 
+   3.827954302845343*^9}, {3.827956183129569*^9, 3.8279561871771517`*^9}, 
+   3.8510088216927958`*^9, {3.851065387457584*^9, 3.8510653950417137`*^9}, {
+   3.8510682768154383`*^9, 3.851068280871207*^9}, {3.8510997628523493`*^9, 
+   3.8510997737509108`*^9}, {3.851112556690555*^9, 3.851112614497939*^9}, {
+   3.861873084561179*^9, 3.861873110928751*^9}, 3.861873468099904*^9, {
+   3.862044418961834*^9, 3.862044450225502*^9}, {3.862217840411951*^9, 
+   3.862217846123966*^9}, {3.885642494073176*^9, 3.8856424959454937`*^9}, {
+   3.976563957414098*^9, 3.976563969939114*^9}, {3.9766267383871*^9, 
+   3.976626751346908*^9}, {3.976641846176968*^9, 3.97664187377738*^9}, {
+   3.976705427649239*^9, 3.976705447734488*^9}, 3.976706049112609*^9, {
+   3.976706244281049*^9, 3.9767062512716303`*^9}, {3.976706307237919*^9, 
+   3.976706308873199*^9}},
+ TextAlignment->Center,ExpressionUUID->"4cf5ae13-bfae-4cde-a61f-883f27cc734a"],
+
+Cell["\<\
+Geoff Cope
+University of Utah
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\|01040f\|01042d\|01044c\|010432\|010442\|010432\
+\|010449\|010445\|01042e\|01043b\|010428 \|010432\|010442 \|01040f\|01042d\
+\|01043b\|01042b
+January 6, 2026\
+\>", "Author",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.},
+ CellChangeTimes->{{3.821729507652328*^9, 3.821729529657844*^9}, 
+   3.8220480097522783`*^9, {3.822048070235491*^9, 3.822048084689715*^9}, {
+   3.8225654346519403`*^9, 3.8225654361641483`*^9}, {3.8231764728567343`*^9, 
+   3.823176482313031*^9}, {3.8233640113399878`*^9, 3.823364023347041*^9}, {
+   3.8234229506702557`*^9, 3.823422956381791*^9}, {3.827953252419902*^9, 
+   3.827953254868108*^9}, {3.851065213363542*^9, 3.8510652255731983`*^9}, {
+   3.8510652620952*^9, 3.851065307413348*^9}, {3.85109882342251*^9, 
+   3.851098834342609*^9}, 3.851112556690649*^9, 3.861873468099978*^9, {
+   3.861874316220215*^9, 3.861874319756319*^9}, {3.976563971664147*^9, 
+   3.976563975864481*^9}, {3.976626768192091*^9, 3.976626768491643*^9}, {
+   3.976705473910036*^9, 3.976705474315426*^9}},
+ TextAlignment->Center,ExpressionUUID->"c528fa70-c343-47ef-bb41-3d296a7fe937"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Hyperlink To Book", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.},
+ CellChangeTimes->{{3.9767063183902283`*^9, 
+  3.97670632889828*^9}},ExpressionUUID->"b795b830-0984-4b5b-99cf-\
+d3831e64cf0a"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<Principles of Nuclear Rocket Propulsion by Emrich\>\"", ",", 
+   "\[IndentingNewLine]", 
+   "\"\<https://www.amazon.com/Principles-Nuclear-Rocket-Propulsion-William/\
+dp/0128044748\>\""}], "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.},
+ CellChangeTimes->{{3.9767062983752604`*^9, 3.9767063222321377`*^9}},
+ CellLabel->"In[56]:=",ExpressionUUID->"429a76d3-8949-4a84-8be0-8b5c944db88e"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"Principles of Nuclear Rocket Propulsion by Emrich\"", 
+   "https://www.amazon.com/Principles-Nuclear-Rocket-Propulsion-William/dp/\
+0128044748"},
+  "HyperlinkURL"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.},
+ CellChangeTimes->{{3.97670631661125*^9, 3.976706322232655*^9}},
+ CellLabel->"Out[56]=",ExpressionUUID->"8fec6bec-c01b-4dc1-89eb-63940dad441b"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Hyperlink To Project Orion Documentary", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10003.},
+ CellChangeTimes->{{3.976706388022376*^9, 
+  3.976706401455022*^9}},ExpressionUUID->"11097978-1771-4b31-b6bb-\
+79fcadb0f696"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<Project Orion Documentary Freeman and George Dyson\>\"", ",", 
+   "\"\<https://www.youtube.com/watch?v=xYoLcJuBtOw\>\""}], "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10003.},
+ CellChangeTimes->{{3.9767063619001102`*^9, 3.976706392107909*^9}},
+ CellLabel->"In[58]:=",ExpressionUUID->"834e789e-3b0c-40f0-a828-0ba356fae669"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"Project Orion Documentary Freeman and George Dyson\"", 
+   "https://www.youtube.com/watch?v=xYoLcJuBtOw"},
+  "HyperlinkURL"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10003.},
+ CellChangeTimes->{{3.976706383110107*^9, 3.9767063921084547`*^9}},
+ CellLabel->"Out[58]=",ExpressionUUID->"ff8809d7-04fd-4abf-9be4-bb63f3aaef2a"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["DIA Assessment PDF", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10004.},
+ CellChangeTimes->{{3.976706516394837*^9, 
+  3.9767065296622257`*^9}},ExpressionUUID->"cac376ab-a451-4316-a15e-\
+109b6fc9baa6"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<Defense Intelligence Agency Assessment\>\"", ",", 
+   "\[IndentingNewLine]", 
+   "\"\<https://www.dia.mil/FOIA/FOIA-Electronic-Reading-Room/FileId/170020/\>\
+\""}], "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10004.},
+ CellChangeTimes->{{3.9767064975337677`*^9, 3.976706521092964*^9}},
+ CellLabel->"In[59]:=",ExpressionUUID->"5692cf49-4c0c-4c98-a786-8197f60f6bf5"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"Defense Intelligence Agency Assessment\"", 
+   "https://www.dia.mil/FOIA/FOIA-Electronic-Reading-Room/FileId/170020/"},
+  "HyperlinkURL"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10004.},
+ CellChangeTimes->{{3.976706514656646*^9, 3.9767065210935793`*^9}},
+ CellLabel->"Out[59]=",ExpressionUUID->"cc110735-1e17-4b0a-b913-670dd17afff8"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Office of Nuclear Energy Award Recipients (Cross Check With Camp Williams and \
+Brigham City Folk)
+(JFC This is a lot)\
+\>", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.},
+ CellChangeTimes->{{3.976706735789221*^9, 3.976706768828128*^9}, {
+  3.976707209822338*^9, 
+  3.976707225347567*^9}},ExpressionUUID->"2d8fd3f6-05eb-4209-9c03-\
+91425fd4a1b8"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<Submarine Enrichment Issue Build New Facility Camp Williams?\>\"", ",",
+    "\[IndentingNewLine]", 
+   "\"\<https://irp.fas.org/agency/dod/jason/leu-naval.pdf\>\""}], 
+  "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.},
+ CellChangeTimes->{{3.976707180437769*^9, 3.976707203297155*^9}},
+ CellLabel->"In[71]:=",ExpressionUUID->"f4580c11-07da-4eaa-a231-e38a111e40ea"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"Submarine Enrichment Issue Build New Facility Camp Williams?\"", 
+   "https://irp.fas.org/agency/dod/jason/leu-naval.pdf"},
+  "HyperlinkURL"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.},
+ CellChangeTimes->{3.97670720382339*^9},
+ CellLabel->"Out[71]=",ExpressionUUID->"22337ef5-4f5a-4386-8674-c1fcfb46fdd0"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<DOE Awards\>\"", ",", "\[IndentingNewLine]", 
+   "\"\<https://www.energy.gov/articles/us-department-energy-awards-27-\
+billion-restore-american-uranium-enrichment\>\""}], "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.},
+ CellChangeTimes->{{3.9767069287919817`*^9, 3.976706942007325*^9}},
+ CellLabel->"In[64]:=",ExpressionUUID->"6f5ff614-aa9f-481a-b2bf-01e7a1090916"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"DOE Awards\"", 
+   "https://www.energy.gov/articles/us-department-energy-awards-27-billion-\
+restore-american-uranium-enrichment"},
+  "HyperlinkURL"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.},
+ CellChangeTimes->{3.976706942485957*^9},
+ CellLabel->"Out[64]=",ExpressionUUID->"3c678f6e-bddd-4aab-9cdc-60a6739659da"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<HALEU WEAPONS calculation\>\"", ",", 
+   "\"\<https://rlg.fas.org/haleu-science.pdf\>\""}], "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.},
+ CellChangeTimes->{{3.976707009703492*^9, 3.9767070750749826`*^9}},
+ CellLabel->"In[69]:=",ExpressionUUID->"ae8c7f87-1d0c-49a2-bf04-ae60785c0008"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"HALEU WEAPONS calculation\"", "https://rlg.fas.org/haleu-science.pdf"},
+  "HyperlinkURL"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.},
+ CellChangeTimes->{{3.976707071190536*^9, 3.97670707549343*^9}},
+ CellLabel->"Out[69]=",ExpressionUUID->"b8947b97-7485-463d-94d7-b7beb82159fc"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<NRO Assemply Assessment\>\"", ",", 
+   "\"\<https://irp.fas.org/agency/dod/jason/assembly.pdf\>\""}], 
+  "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.},
+ CellChangeTimes->{{3.976707139862131*^9, 3.976707152105098*^9}},
+ CellLabel->"In[70]:=",ExpressionUUID->"51d5af5a-9b98-47ed-92cd-e246c1f0b618"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"NRO Assemply Assessment\"", 
+   "https://irp.fas.org/agency/dod/jason/assembly.pdf"},
+  "HyperlinkURL"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.},
+ CellChangeTimes->{3.976707153425879*^9},
+ CellLabel->"Out[70]=",ExpressionUUID->"25dc9be6-843f-49d3-97af-d02686446d1d"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<Orano\>\"", ",", "\[IndentingNewLine]", 
+   "\"\<https://www.orano.group/usa/en/our-portfolio-expertise/products-\
+services/federal-services\>\""}], "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.},
+ CellChangeTimes->{{3.9767068930022573`*^9, 3.976706901236507*^9}},
+ CellLabel->"In[63]:=",ExpressionUUID->"1ae1c360-a347-4b25-966a-54e3834ba3ab"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"Orano\"", 
+   "https://www.orano.group/usa/en/our-portfolio-expertise/products-services/\
+federal-services"},
+  "HyperlinkURL"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.},
+ CellChangeTimes->{3.9767069017295837`*^9},
+ CellLabel->"Out[63]=",ExpressionUUID->"e82d1cce-af38-435e-9e13-a440af13955c"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<General Matter\>\"", ",", "\[IndentingNewLine]", 
+   "\"\<https://kutv.com/news/local/questions-raised-over-plan-to-use-400-\
+acres-near-camp-williams-for-nuclear-manufacturing\>\""}], "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.},
+ CellChangeTimes->{{3.976706849890033*^9, 3.976706859145269*^9}},
+ CellLabel->"In[62]:=",ExpressionUUID->"61b5a7e5-7320-4f8b-b658-0a2a6a96bc3a"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"General Matter\"", 
+   "https://kutv.com/news/local/questions-raised-over-plan-to-use-400-acres-\
+near-camp-williams-for-nuclear-manufacturing"},
+  "HyperlinkURL"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.},
+ CellChangeTimes->{3.976706859611268*^9},
+ CellLabel->"Out[62]=",ExpressionUUID->"d8199fed-9bb9-4b4a-b6a8-64c22d3a1412"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<Centrus\>\"", ",", "\[IndentingNewLine]", 
+   "\"\<https://www.centrusenergy.com/what-we-do/national-security/american-\
+centrifuge/\>\""}], "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.},
+ CellChangeTimes->{{3.9767067960562077`*^9, 3.9767068163794613`*^9}},
+ CellLabel->"In[61]:=",ExpressionUUID->"35b3a044-23f0-45b4-9803-10f9575f079e"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"Centrus\"", 
+   "https://www.centrusenergy.com/what-we-do/national-security/american-\
+centrifuge/"},
+  "HyperlinkURL"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.},
+ CellChangeTimes->{3.976706816706399*^9},
+ CellLabel->"Out[61]=",ExpressionUUID->"5d02f748-442d-461c-a532-d7b402893ca4"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<Global Laser Enrichment\>\"", ",", "\"\<https://www.gle-us.com/\>\""}],
+   "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.},
+ CellChangeTimes->{{3.976706718878189*^9, 
+  3.976706740286757*^9}},ExpressionUUID->"96810953-ac01-4f41-bdc5-\
+0e3911cdbb51"],
+
+Cell[BoxData[
+ TemplateBox[{"\"Global Laser Enrichment\"", "https://www.gle-us.com/"},
+  "HyperlinkURL"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.},
+ CellChangeTimes->{{3.9767067324932537`*^9, 3.9767067402873*^9}},
+ CellLabel->"Out[60]=",ExpressionUUID->"6ab7fcff-b72a-490a-947a-f48f999b3861"]
+}, Closed]]
+},
+WindowSize->{1280, 754},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"13.0 for Mac OS X x86 (64-bit) (February 4, 2022)",
+StyleDefinitions->FrontEnd`FileName[{"Report"}, "StandardReport.nb", 
+  CharacterEncoding -> "UTF-8"],
+ExpressionUUID->"9a0b52b7-fa51-4649-b28a-fd556015ffae"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 1798, 27, 159, "Title",ExpressionUUID->"4cf5ae13-bfae-4cde-a61f-883f27cc734a",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.}],
+Cell[2381, 51, 1159, 20, 94, "Author",ExpressionUUID->"c528fa70-c343-47ef-bb41-3d296a7fe937",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.}]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3577, 76, 218, 4, 69, "Section",ExpressionUUID->"b795b830-0984-4b5b-99cf-d3831e64cf0a",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
+Cell[3798, 82, 469, 9, 63, "Input",ExpressionUUID->"429a76d3-8949-4a84-8be0-8b5c944db88e",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
+Cell[4270, 93, 408, 8, 43, "Output",ExpressionUUID->"8fec6bec-c01b-4dc1-89eb-63940dad441b",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.}]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[4715, 106, 238, 4, 55, "Section",ExpressionUUID->"11097978-1771-4b31-b6bb-79fcadb0f696",
+ CellGroupingRules->{"GroupTogetherGrouping", 10003.}],
+Cell[4956, 112, 401, 7, 41, "Input",ExpressionUUID->"834e789e-3b0c-40f0-a828-0ba356fae669",
+ CellGroupingRules->{"GroupTogetherGrouping", 10003.}],
+Cell[5360, 121, 372, 7, 43, "Output",ExpressionUUID->"ff8809d7-04fd-4abf-9be4-bb63f3aaef2a",
+ CellGroupingRules->{"GroupTogetherGrouping", 10003.}]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[5769, 133, 220, 4, 55, "Section",ExpressionUUID->"cac376ab-a451-4316-a15e-109b6fc9baa6",
+ CellGroupingRules->{"GroupTogetherGrouping", 10004.}],
+Cell[5992, 139, 443, 9, 63, "Input",ExpressionUUID->"5692cf49-4c0c-4c98-a786-8197f60f6bf5",
+ CellGroupingRules->{"GroupTogetherGrouping", 10004.}],
+Cell[6438, 150, 385, 7, 43, "Output",ExpressionUUID->"cc110735-1e17-4b0a-b913-670dd17afff8",
+ CellGroupingRules->{"GroupTogetherGrouping", 10004.}]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[6860, 162, 375, 9, 93, "Section",ExpressionUUID->"2d8fd3f6-05eb-4209-9c03-91425fd4a1b8",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
+Cell[7238, 173, 446, 9, 63, "Input",ExpressionUUID->"f4580c11-07da-4eaa-a231-e38a111e40ea",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
+Cell[7687, 184, 362, 7, 43, "Output",ExpressionUUID->"22337ef5-4f5a-4386-8674-c1fcfb46fdd0",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
+Cell[8052, 193, 449, 8, 63, "Input",ExpressionUUID->"6f5ff614-aa9f-481a-b2bf-01e7a1090916",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
+Cell[8504, 203, 371, 8, 43, "Output",ExpressionUUID->"3c678f6e-bddd-4aab-9cdc-60a6739659da",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
+Cell[8878, 213, 370, 7, 41, "Input",ExpressionUUID->"ae8c7f87-1d0c-49a2-bf04-ae60785c0008",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
+Cell[9251, 222, 334, 6, 43, "Output",ExpressionUUID->"b8947b97-7485-463d-94d7-b7beb82159fc",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
+Cell[9588, 230, 381, 8, 41, "Input",ExpressionUUID->"51d5af5a-9b98-47ed-92cd-e246c1f0b618",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
+Cell[9972, 240, 325, 7, 43, "Output",ExpressionUUID->"25dc9be6-843f-49d3-97af-d02686446d1d",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
+Cell[10300, 249, 427, 8, 63, "Input",ExpressionUUID->"1ae1c360-a347-4b25-966a-54e3834ba3ab",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
+Cell[10730, 259, 351, 8, 43, "Output",ExpressionUUID->"e82d1cce-af38-435e-9e13-a440af13955c",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
+Cell[11084, 269, 461, 8, 63, "Input",ExpressionUUID->"61b5a7e5-7320-4f8b-b658-0a2a6a96bc3a",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
+Cell[11548, 279, 385, 8, 43, "Output",ExpressionUUID->"d8199fed-9bb9-4b4a-b6a8-64c22d3a1412",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
+Cell[11936, 289, 421, 8, 63, "Input",ExpressionUUID->"35b3a044-23f0-45b4-9803-10f9575f079e",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
+Cell[12360, 299, 341, 8, 43, "Output",ExpressionUUID->"5d02f748-442d-461c-a532-d7b402893ca4",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
+Cell[12704, 309, 332, 8, 41, "Input",ExpressionUUID->"96810953-ac01-4f41-bdc5-0e3911cdbb51",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
+Cell[13039, 319, 316, 5, 43, "Output",ExpressionUUID->"6ab7fcff-b72a-490a-947a-f48f999b3861",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.}]
+}, Closed]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
