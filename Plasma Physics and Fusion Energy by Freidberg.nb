@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      5793,        132]
-NotebookOptionsPosition[      4657,        104]
-NotebookOutlinePosition[      5124,        121]
-CellTagsIndexPosition[      5081,        118]
+NotebookDataLength[      8076,        182]
+NotebookOptionsPosition[      6454,        146]
+NotebookOutlinePosition[      6924,        163]
+CellTagsIndexPosition[      6881,        160]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -72,10 +72,13 @@ January 5, 2026\
 
 Cell[CellGroupData[{
 
-Cell["Hyperlink to CUP Link", "Section",
- CellGroupingRules->{"GroupTogetherGrouping", 10002.},
- CellChangeTimes->{{3.976647324973434*^9, 
-  3.976647335688339*^9}},ExpressionUUID->"889fe745-843a-4828-8095-\
+Cell["\<\
+Hyperlink to CUP Link For Plasma Physics and Fusion Energy by Freidberg \
+\>", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10003.},
+ CellChangeTimes->{{3.976647324973434*^9, 3.976647335688339*^9}, {
+  3.976705998472011*^9, 
+  3.9767060458274593`*^9}},ExpressionUUID->"889fe745-843a-4828-8095-\
 be5079473890"],
 
 Cell[BoxData[
@@ -85,8 +88,9 @@ Cell[BoxData[
    "\[IndentingNewLine]", 
    "\"\<https://www.cambridge.org/core/books/plasma-physics-and-fusion-energy/\
 CD7B530D2889F70446F34E14EE0EF703\>\""}], "]"}]], "Input",
- CellGroupingRules->{"GroupTogetherGrouping", 10002.},
- CellChangeTimes->{{3.976647311194744*^9, 3.976647329589673*^9}},
+ CellGroupingRules->{"GroupTogetherGrouping", 10003.},
+ CellChangeTimes->{{3.976647311194744*^9, 3.976647329589673*^9}, 
+   3.97670602771036*^9},
  CellLabel->
   "In[234]:=",ExpressionUUID->"ab374b91-50d7-4745-9408-b7d8f5b442d3"],
 
@@ -96,14 +100,52 @@ Cell[BoxData[
    "https://www.cambridge.org/core/books/plasma-physics-and-fusion-energy/\
 CD7B530D2889F70446F34E14EE0EF703"},
   "HyperlinkURL"]], "Output",
- CellGroupingRules->{"GroupTogetherGrouping", 10002.},
- CellChangeTimes->{{3.976647323820854*^9, 3.976647329591524*^9}},
+ CellGroupingRules->{"GroupTogetherGrouping", 10003.},
+ CellChangeTimes->{{3.976647323820854*^9, 3.976647329591524*^9}, 
+   3.9767060277105637`*^9},
  CellLabel->
   "Out[234]=",ExpressionUUID->"cd619dbc-ea12-41ee-89b7-660eaeccf3f7"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Hyperlink to PDF Of Book Tokamaks by John Wesson Third Edition (Russian Link \
+- You\[CloseCurlyQuote]ve Been Warned)\
+\>", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.},
+ CellChangeTimes->{{3.976705745352249*^9, 3.976705774261915*^9}, {
+  3.9767060406471243`*^9, 
+  3.976706041011973*^9}},ExpressionUUID->"09d13f75-2030-4724-b3ea-\
+22dad6592af7"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<Tokamaks by John Wesson Third Edition Russian PDF\>\"", ",", 
+   "\"\<http://irbiscorp.spsl.nsc.ru/fulltext/E-books/%D0%9A%D0%BD%D0%B8%D0%\
+B3%D0%B8%20%D0%BD%D0%B0%20%D0%B8%D0%BD%D0%BE%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%\
+BD%D1%8B%D1%85%20%D1%8F%D0%B7%D1%8B%D0%BA%D0%B0%D1%85/Wesson%20J.%20Tokamaks%\
+20(3rd%20ed.,%20Oxford,%202004).pdf\>\""}], "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.},
+ CellChangeTimes->{{3.9767057022753963`*^9, 3.9767057504687557`*^9}},
+ CellLabel->"In[55]:=",ExpressionUUID->"49d12b4d-f7f8-49bb-9e81-a88b5ddfc5ce"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"Tokamaks by John Wesson Third Edition Russian PDF\"", 
+   "http://irbiscorp.spsl.nsc.ru/fulltext/E-books/%D0%9A%D0%BD%D0%B8%D0%B3%D0%\
+B8%20%D0%BD%D0%B0%20%D0%B8%D0%BD%D0%BE%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%BD%D1%\
+8B%D1%85%20%D1%8F%D0%B7%D1%8B%D0%BA%D0%B0%D1%85/Wesson%20J.%20Tokamaks%20(3rd%\
+20ed.,%20Oxford,%202004).pdf"},
+  "HyperlinkURL"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.},
+ CellChangeTimes->{{3.9767057077499228`*^9, 3.976705750469335*^9}},
+ CellLabel->"Out[55]=",ExpressionUUID->"4a2ed8a9-fa98-4938-a11e-fe6774bb5b8c"]
 }, Closed]]
 },
-WindowSize->{1147, 655},
-WindowMargins->{{0, Automatic}, {16, Automatic}},
+WindowSize->{1250, 755},
+WindowMargins->{{-1250, Automatic}, {Automatic, 0}},
 FrontEndVersion->"13.0 for Mac OS X x86 (64-bit) (February 4, 2022)",
 StyleDefinitions->FrontEnd`FileName[{"Report"}, "StandardReport.nb", 
   CharacterEncoding -> "UTF-8"],
@@ -127,11 +169,19 @@ Cell[2352, 50, 1109, 19, 94, "Author",ExpressionUUID->"39a689b0-78f9-4caf-8711-9
  CellGroupingRules->{"GroupTogetherGrouping", 10001.}]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[3498, 74, 221, 4, 69, "Section",ExpressionUUID->"889fe745-843a-4828-8095-be5079473890",
+Cell[3498, 74, 331, 7, 69, "Section",ExpressionUUID->"889fe745-843a-4828-8095-be5079473890",
+ CellGroupingRules->{"GroupTogetherGrouping", 10003.}],
+Cell[3832, 83, 511, 11, 63, "Input",ExpressionUUID->"ab374b91-50d7-4745-9408-b7d8f5b442d3",
+ CellGroupingRules->{"GroupTogetherGrouping", 10003.}],
+Cell[4346, 96, 458, 10, 43, "Output",ExpressionUUID->"cd619dbc-ea12-41ee-89b7-660eaeccf3f7",
+ CellGroupingRules->{"GroupTogetherGrouping", 10003.}]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[4841, 111, 376, 8, 93, "Section",ExpressionUUID->"09d13f75-2030-4724-b3ea-22dad6592af7",
  CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
-Cell[3722, 80, 486, 10, 63, "Input",ExpressionUUID->"ab374b91-50d7-4745-9408-b7d8f5b442d3",
+Cell[5220, 121, 623, 10, 84, "Input",ExpressionUUID->"49d12b4d-f7f8-49bb-9e81-a88b5ddfc5ce",
  CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
-Cell[4211, 92, 430, 9, 43, "Output",ExpressionUUID->"cd619dbc-ea12-41ee-89b7-660eaeccf3f7",
+Cell[5846, 133, 592, 10, 43, "Output",ExpressionUUID->"4a2ed8a9-fa98-4938-a11e-fe6774bb5b8c",
  CellGroupingRules->{"GroupTogetherGrouping", 10002.}]
 }, Closed]]
 }
