@@ -1,0 +1,1126 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     47624,       1118]
+NotebookOptionsPosition[     34493,        894]
+NotebookOutlinePosition[     34959,        911]
+CellTagsIndexPosition[     34916,        908]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["\<\
+Notebook for :  
+Introduction to the Theory of Quantized Fields by Bogoliubov and Shirkov\
+\>", "Title",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.},
+ CellChangeTimes->{{3.8217294718661222`*^9, 3.821729502043838*^9}, 
+   3.8217295683553457`*^9, 3.821732221863006*^9, {3.821811203295624*^9, 
+   3.8218112036548367`*^9}, {3.822041768762134*^9, 3.822041781290854*^9}, {
+   3.822048009752109*^9, 3.8220480569607773`*^9}, {3.822504877727007*^9, 
+   3.8225048874039307`*^9}, {3.822565447028533*^9, 3.822565457908236*^9}, {
+   3.822822107930128*^9, 3.822822113128089*^9}, {3.823176459993638*^9, 
+   3.823176470345335*^9}, {3.823359338529508*^9, 3.823359361520629*^9}, {
+   3.823422938182802*^9, 3.823422938584877*^9}, {3.823431880221382*^9, 
+   3.823431897644202*^9}, {3.82343570279051*^9, 3.823435714197551*^9}, {
+   3.8279532410864677`*^9, 3.8279532445579853`*^9}, {3.82795429722185*^9, 
+   3.827954302845343*^9}, {3.827956183129569*^9, 3.8279561871771517`*^9}, 
+   3.8510088216927958`*^9, {3.851065387457584*^9, 3.8510653950417137`*^9}, {
+   3.8510682768154383`*^9, 3.851068280871207*^9}, {3.8510997628523493`*^9, 
+   3.8510997737509108`*^9}, {3.851112556690555*^9, 3.851112614497939*^9}, {
+   3.861873084561179*^9, 3.861873110928751*^9}, 3.861873468099904*^9, {
+   3.862044418961834*^9, 3.862044450225502*^9}, {3.862217840411951*^9, 
+   3.862217846123966*^9}, {3.885642494073176*^9, 3.8856424959454937`*^9}, {
+   3.976563957414098*^9, 3.976563969939114*^9}, {3.9766267383871*^9, 
+   3.976626751346908*^9}, {3.976641846176968*^9, 3.97664187377738*^9}, {
+   3.976697712476507*^9, 3.976697736088396*^9}},
+ TextAlignment->Center,ExpressionUUID->"e7f2b880-8a83-4bac-a45d-7f511dd2a3e4"],
+
+Cell["\<\
+Geoff Cope
+University of Utah
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\|01040f\|01042d\|01044c\|010432\|010442\|010432\
+\|010449\|010445\|01042e\|01043b\|010428 \|010432\|010442 \|01040f\|01042d\
+\|01043b\|01042by 
+January 5, 2026\
+\>", "Author",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.},
+ CellChangeTimes->{{3.821729507652328*^9, 3.821729529657844*^9}, 
+   3.8220480097522783`*^9, {3.822048070235491*^9, 3.822048084689715*^9}, {
+   3.8225654346519403`*^9, 3.8225654361641483`*^9}, {3.8231764728567343`*^9, 
+   3.823176482313031*^9}, {3.8233640113399878`*^9, 3.823364023347041*^9}, {
+   3.8234229506702557`*^9, 3.823422956381791*^9}, {3.827953252419902*^9, 
+   3.827953254868108*^9}, {3.851065213363542*^9, 3.8510652255731983`*^9}, {
+   3.8510652620952*^9, 3.851065307413348*^9}, {3.85109882342251*^9, 
+   3.851098834342609*^9}, 3.851112556690649*^9, 3.861873468099978*^9, {
+   3.861874316220215*^9, 3.861874319756319*^9}, {3.976563971664147*^9, 
+   3.976563975864481*^9}, {3.976626768192091*^9, 3.976626768491643*^9}, {
+   3.97669771774374*^9, 3.976697717921764*^9}},
+ TextAlignment->Center,ExpressionUUID->"1a6fff76-c80f-485b-a3fb-5cdbbf019018"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Hyperlink To Archive Version (Find First Edition So Pages Match)\
+\>", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.},
+ CellChangeTimes->{{3.9766979452132*^9, 3.976697958496554*^9}, {
+  3.9766983263197117`*^9, 
+  3.9766983391594963`*^9}},ExpressionUUID->"549758e3-62d0-45a5-8fb1-\
+678833870b0a"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<Introduction to the Theory of Quantized Fields by Bogoliubov and \
+Shirkov Internet Archive\>\"", ",", "\[IndentingNewLine]", 
+   "\"\<https://archive.org/details/IntroductionToTheoryOfQuantizedFields\>\"\
+"}], "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.},
+ CellChangeTimes->{{3.976697914083132*^9, 3.976697949460299*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"f24a5c91-9e97-4f18-a3a0-e8dca68f3b06"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"Introduction to the Theory of Quantized Fields by Bogoliubov and Shirkov \
+Internet Archive\"", 
+   "https://archive.org/details/IntroductionToTheoryOfQuantizedFields"},
+  "HyperlinkURL"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.},
+ CellChangeTimes->{{3.9766979436429863`*^9, 3.976697949460616*^9}},
+ CellLabel->"Out[1]=",ExpressionUUID->"2562d544-923e-4bcc-8389-f2eb60b6ad02"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Hyperlink To Schwinger Particles Sources Fields To Compare Notation (Page 146)\
+\>", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10003.},
+ CellChangeTimes->{{3.9766980129393797`*^9, 3.976698035808332*^9}, {
+  3.976698072438767*^9, 
+  3.976698078469027*^9}},ExpressionUUID->"3252e98d-83c4-4c67-a5db-\
+524cf8d1f2e3"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<Schwinger Particles Sources Fields Volume 1\>\"", ",", 
+   "\[IndentingNewLine]", 
+   "\"\<https://archive.org/details/particlessources0001schw\>\""}], 
+  "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10003.},
+ CellChangeTimes->{{3.976697993224028*^9, 3.9766980169706078`*^9}},
+ CellLabel->"In[2]:=",ExpressionUUID->"22495d10-3d55-4831-a8ee-ca95f86f2b5e"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"Schwinger Particles Sources Fields Volume 1\"", 
+   "https://archive.org/details/particlessources0001schw"},
+  "HyperlinkURL"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10003.},
+ CellChangeTimes->{{3.976698011468058*^9, 3.976698016970956*^9}},
+ CellLabel->"Out[2]=",ExpressionUUID->"4a8d84d6-5478-4387-89b4-8f04e382fedc"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<Schwinger Particles Sources Fields Volume 2\>\"", ",", 
+   "\[IndentingNewLine]", 
+   "\"\<https://archive.org/details/particlessources0002schw\>\""}], 
+  "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10003.},
+ CellChangeTimes->{{3.9766982377592697`*^9, 3.9766982549024363`*^9}, 
+   3.976698316048174*^9},
+ CellLabel->"In[4]:=",ExpressionUUID->"11313332-d9e9-4331-bf15-34c1f9f970e4"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"Schwinger Particles Sources Fields Volume 2\"", 
+   "https://archive.org/details/particlessources0002schw"},
+  "HyperlinkURL"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10003.},
+ CellChangeTimes->{{3.976698252885304*^9, 3.976698255436798*^9}, 
+   3.9766983160484962`*^9},
+ CellLabel->"Out[4]=",ExpressionUUID->"e729f009-da55-4a19-9c29-2452925ad3cb"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<Schwinger Particles Sources Fields Volume 3\>\"", ",", 
+   "\[IndentingNewLine]", 
+   "\"\<https://archive.org/details/particlessources0000schw\>\""}], 
+  "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10003.},
+ CellChangeTimes->{{3.976698294849534*^9, 3.97669831604869*^9}},
+ CellLabel->"In[6]:=",ExpressionUUID->"bfe39d68-2c3e-4230-9f82-afe785e4c415"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"Schwinger Particles Sources Fields Volume 3\"", 
+   "https://archive.org/details/particlessources0000schw"},
+  "HyperlinkURL"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10003.},
+ CellChangeTimes->{{3.9766983069629097`*^9, 3.976698316048952*^9}},
+ CellLabel->"Out[6]=",ExpressionUUID->"c7ca4746-f2bc-4189-b612-c03e18e2859d"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Hyperlink To Stueckelberg Links To Compare Notation (Page 146, Page 416)\
+\>", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10004.},
+ CellChangeTimes->{{3.9766984856147137`*^9, 3.976698516043535*^9}, {
+  3.976699196907673*^9, 
+  3.976699201227693*^9}},ExpressionUUID->"9f7eaf0a-8511-44db-8358-\
+3a77c924f786"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<Hyperlink To Stueckelberg Notation\>\"", ",", "\[IndentingNewLine]", 
+   "\"\<https://kirkmcd.princeton.edu/examples/wentzel.pdf\>\""}], 
+  "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10004.},
+ CellChangeTimes->{{3.976698442979247*^9, 3.976698490893703*^9}},
+ CellLabel->"In[7]:=",ExpressionUUID->"eee04224-e2d8-4ea6-b5e1-f014de02bb5e"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"Hyperlink To Stueckelberg Notation\"", 
+   "https://kirkmcd.princeton.edu/examples/wentzel.pdf"},
+  "HyperlinkURL"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10004.},
+ CellChangeTimes->{{3.976698483695025*^9, 3.976698490894063*^9}},
+ CellLabel->"Out[7]=",ExpressionUUID->"0129ce62-3a17-4f80-bd9c-3f21405b87c4"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Hyperlink to Thirring\[CloseCurlyQuote]s Mathematical Physics Books For \
+Hurst-Thirring Field (Page 352)\
+\>", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.},
+ CellChangeTimes->{{3.976698872067644*^9, 
+  3.976698915966625*^9}},ExpressionUUID->"3a2155de-151e-40f5-8d1c-\
+f7a78444e1bd"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\< Classical Mathematical Physics Dynamical Systems and Field Theories \
+Third Edition\>\"", ",", "\[IndentingNewLine]", 
+   "\"\<https://link.springer.com/book/10.1007/978-1-4612-0681-1\>\""}], 
+  "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.},
+ CellChangeTimes->{{3.97669883646616*^9, 3.9766988770811453`*^9}},
+ CellLabel->"In[10]:=",ExpressionUUID->"e0db9e27-944c-478d-ad72-73a78d86982a"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\" Classical Mathematical Physics Dynamical Systems and Field Theories \
+Third Edition\"", "https://link.springer.com/book/10.1007/978-1-4612-0681-1"},
+  
+  "HyperlinkURL"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.},
+ CellChangeTimes->{{3.976698862863118*^9, 3.976698877081512*^9}},
+ CellLabel->"Out[10]=",ExpressionUUID->"3e865e10-bea8-4961-8f54-7b144e26eb79"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<Quantum Mathematical Physics Atoms, Molecules and Large Systems by \
+Walter Thirring Second Edition\>\"", ",", 
+   "\"\<https://link.springer.com/book/10.1007/978-3-662-05008-8\>\""}], 
+  "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.},
+ CellChangeTimes->{{3.976698685728949*^9, 3.9766986914878483`*^9}, {
+  3.976698778207856*^9, 3.9766987956800137`*^9}, {3.97669886597191*^9, 
+  3.9766988770817327`*^9}},
+ CellLabel->"In[12]:=",ExpressionUUID->"70f525d1-d13f-45fe-b38b-54612bebce55"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"Quantum Mathematical Physics Atoms, Molecules and Large Systems by \
+Walter Thirring Second Edition\"", 
+   "https://link.springer.com/book/10.1007/978-3-662-05008-8"},
+  "HyperlinkURL"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.},
+ CellChangeTimes->{
+  3.976698692140368*^9, 3.9766987961535997`*^9, {3.976698868454204*^9, 
+   3.9766988770820217`*^9}},
+ CellLabel->"Out[12]=",ExpressionUUID->"04c38dde-a9d0-4cc3-944c-7cb3b44be059"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Hyperlink to Dyson Story about Tomonaga Sending Manuscript (FIND THIS)\
+\>", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10006.},
+ CellChangeTimes->{{3.976699281110265*^9, 
+  3.97669931419517*^9}},ExpressionUUID->"b7452d3f-45ba-4bf8-827c-\
+2f9d37690c43"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<Tomonaga Schwinger Equation\>\"", ",", 
+   "\"\<Freeman Dyson Description\>\""}], "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10006.},
+ CellChangeTimes->{{3.976699248465287*^9, 3.976699285401232*^9}, {
+  3.976699317646262*^9, 
+  3.976699318650758*^9}},ExpressionUUID->"530c453d-a40f-4404-bcd6-\
+5d516f200ec1"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"Tominaga Schwinger Equation\"", {"Freeman Dyson Description", None}, 
+   "Freeman Dyson Description"},
+  "HyperlinkDefault"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10006.},
+ CellChangeTimes->{{3.976699263534108*^9, 3.976699285401682*^9}},
+ CellLabel->"Out[14]=",ExpressionUUID->"226edee5-287c-4e7c-ad4a-29575e05a2ab"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Hyperlink to Energy Momentum Tensor Emmy Noether Description and Modification \
+(Page 446) (FIND THIS)\
+\>", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10007.},
+ CellChangeTimes->{{3.976699372058276*^9, 3.976699401496696*^9}, {
+  3.9766994517327757`*^9, 
+  3.976699452088805*^9}},ExpressionUUID->"f02ad731-9370-424e-b8e8-\
+059f29050220"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{"\"\<Energy Momentum Tensor\>\"", ",", "\"\<Emmy Noether\>\""}], 
+  "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10007.},
+ CellChangeTimes->{{3.9766993528677893`*^9, 3.976699376223145*^9}},
+ CellLabel->"In[16]:=",ExpressionUUID->"45124095-6957-4090-a7e0-e52f4a4b13de"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"Energy Momentum Tensor\"", {"Emmy Noether", None}, "Emmy Noether"},
+  "HyperlinkDefault"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10007.},
+ CellChangeTimes->{{3.976699361994272*^9, 3.976699376223472*^9}},
+ CellLabel->"Out[16]=",ExpressionUUID->"610e8fbb-bce2-4c5b-ab12-dff5cc7adce4"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Hyperlink to G Minus 2 Experiment and Anomalous Magnetic Moment of the \
+Electron (Page 465) (FIND THIS)\
+\>", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10008.},
+ CellChangeTimes->{{3.9766994860459347`*^9, 
+  3.976699519054455*^9}},ExpressionUUID->"39430508-f5eb-4c1f-9b84-\
+a7757c1ca716"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<G Minus 2 Experiment\>\"", ",", 
+   "\"\<Anomalous Magnetic Moment of the Electron\>\""}], "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10008.},
+ CellChangeTimes->{{3.976699454570055*^9, 3.976699490135792*^9}},
+ CellLabel->"In[19]:=",ExpressionUUID->"71d39992-33df-43d7-9042-ada1bc938c8b"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"G Minus 2 Experiment\"", {
+   "Anomalous Magnetic Moment of the Electron", None}, 
+   "Anomalous Magnetic Moment of the Electron"},
+  "HyperlinkDefault"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10008.},
+ CellChangeTimes->{{3.976699456743367*^9, 3.976699490136158*^9}},
+ CellLabel->"Out[19]=",ExpressionUUID->"12fc98c6-fb10-4c44-926e-331041680a28"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Hyperlink to Fine Structure Constant (Picture of Fermi with different \
+parameters and Dyson story about zero radius of convergence) (FIND THIS)\
+\>", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10009.},
+ CellChangeTimes->{{3.976699699230225*^9, 
+  3.976699756134328*^9}},ExpressionUUID->"bd32847e-56cb-4edf-b719-\
+2a84da4284ce"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<Fine Structure Constant\>\"", ",", 
+   "\"\<Dyson Expansion for positive and negative values of parameter zero \
+radius of convergence\>\""}], "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10009.},
+ CellChangeTimes->{{3.97669965870956*^9, 
+  3.9766997036089363`*^9}},ExpressionUUID->"20b52d53-e69c-4165-abdd-\
+84feb7921406"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"Fine Structure Constant\"", {
+   "Dyson Expansion for positive and negative values of parameter zero radius \
+of convergence", None}, 
+   "Dyson Expansion for positive and negative values of parameter zero radius \
+of convergence"},
+  "HyperlinkDefault"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10009.},
+ CellChangeTimes->{{3.976699691205606*^9, 3.976699703609269*^9}},
+ CellLabel->"Out[20]=",ExpressionUUID->"36bac985-6961-470f-8f9b-db527fefe59f"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Hyperlink to RG Equations and Description That They Don\[CloseCurlyQuote]t \
+Form a Formal Group (Page 531) (FIND THIS)\
+\>", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10010.},
+ CellChangeTimes->{{3.976699817372526*^9, 
+  3.976699860371715*^9}},ExpressionUUID->"0ec985ae-fa7f-46af-bbda-\
+ccb2e864813c"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<RGE Equations as Flow\>\"", ",", 
+   "\"\<RG Equations do not form a group\>\""}], "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10010.},
+ CellChangeTimes->{{3.97669979578296*^9, 3.976699821527747*^9}},
+ CellLabel->"In[22]:=",ExpressionUUID->"aa4cc094-95d8-491f-ad23-58cba04dadd7"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"RGE Equations as Flow\"", {"RG Equations do not form a group", None}, 
+   "RG Equations do not form a group"},
+  "HyperlinkDefault"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10010.},
+ CellChangeTimes->{{3.976699806559857*^9, 3.976699821528234*^9}},
+ CellLabel->"Out[22]=",ExpressionUUID->"cf094856-29c9-47b0-8993-aed2268a05aa"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Hyperlink to Mass Renormalization Sidney Coleman Description (Page 538) (FIND \
+THIS)\
+\>", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10011.},
+ CellChangeTimes->{{3.976699911769541*^9, 
+  3.976699951153573*^9}},ExpressionUUID->"63c6dc3d-26e7-4c24-871a-\
+ccf7fdfc17d6"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<Mass Renormalization\>\"", ",", 
+   "\"\<Find Description with Harvard Physics 235\>\""}], "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10011.},
+ CellChangeTimes->{{3.976699883400276*^9, 3.976699916110709*^9}},
+ CellLabel->"In[23]:=",ExpressionUUID->"82ffa715-f763-49cc-86ad-9c76fe040718"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"Mass Renormalization\"", {
+   "Find Description with Harvard Physics 235", None}, 
+   "Find Description with Harvard Physics 235"},
+  "HyperlinkDefault"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10011.},
+ CellChangeTimes->{{3.976699910029242*^9, 3.976699916111063*^9}},
+ CellLabel->"Out[23]=",ExpressionUUID->"50d568e1-2692-478f-8cf0-75a1f028c3ae"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Hyperlink to UV And IR Divergences (Page 545)", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10012.},
+ CellChangeTimes->{{3.9767000262669697`*^9, 
+  3.976700049585821*^9}},ExpressionUUID->"f4da4af8-1a03-44f3-8cd6-\
+379e36a1f968"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<UV And IR Divergences\>\"", ",", 
+   "\"\<Find Link For Interpolation Scheme for Wien's\>\""}], "]"}]], "Input",\
+
+ CellGroupingRules->{"GroupTogetherGrouping", 10012.},
+ CellChangeTimes->{{3.976699999487379*^9, 3.9767000304423656`*^9}},
+ CellLabel->"In[24]:=",ExpressionUUID->"21f9ae0e-f997-4dac-8cfa-6e12edfa8684"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"UV And IR Divergences\"", {
+   "Find Link For Interpolation Scheme for Wien's", None}, 
+   "Find Link For Interpolation Scheme for Wien's"},
+  "HyperlinkDefault"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10012.},
+ CellChangeTimes->{{3.976700024813483*^9, 3.976700030442745*^9}},
+ CellLabel->"Out[24]=",ExpressionUUID->"298f35b7-e16f-4cff-bbbe-b50603b91d93"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Hyperlink to Discussion about Causality Unitarity Covariance (Page 553) (FIND \
+THIS)\
+\>", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10013.},
+ CellChangeTimes->{{3.9767002656457243`*^9, 
+  3.9767003034809*^9}},ExpressionUUID->"9629537f-d921-4502-8e19-e45c2fd383ed"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<Causality Unitarity Covariance\>\"", ",", 
+   "\"\<Find Cluster Decomposition Reference in Weinberg and \>\""}], 
+  "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10013.},
+ CellChangeTimes->{{3.976700098699212*^9, 3.976700130272625*^9}, 
+   3.976700269474174*^9},ExpressionUUID->"fb4d227a-fd96-4278-9c8c-\
+a6d8f764c11b"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Hyperlink to Conceptual Framework of Quantum Field Theory by Anthony Duncan \
+OUP (For References above)\
+\>", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ CellChangeTimes->{{3.9767002432467747`*^9, 3.9767002635200357`*^9}, {
+  3.976700305897028*^9, 
+  3.976700315271323*^9}},ExpressionUUID->"c563d2fd-ca8d-463e-83b0-\
+2339cd97c507"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<Conceptual Framework of Quantum Field Theory by Anthony Duncan\>\"", 
+   ",", "\[IndentingNewLine]", 
+   "\"\<https://global.oup.com/academic/product/the-conceptual-framework-of-\
+quantum-field-theory-9780198807650?cc=us&lang=en&\>\""}], "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ CellChangeTimes->{{3.976700219150609*^9, 3.976700247238996*^9}},
+ CellLabel->"In[25]:=",ExpressionUUID->"210fffec-71a4-48de-89c4-526eec644b0a"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"Conceptual Framework of Quantum Field Theory by Anthony Duncan\"", 
+   "https://global.oup.com/academic/product/the-conceptual-framework-of-\
+quantum-field-theory-9780198807650?cc=us&lang=en&"},
+  "HyperlinkURL"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ CellChangeTimes->{{3.976700241107562*^9, 3.976700247239336*^9}},
+ CellLabel->"Out[25]=",ExpressionUUID->"52fa0b12-e720-4606-847a-a15239d08d85"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Hyperlink To Strong Versus Weak Coupling (Page 553) (FIND CARL BENDER EXAMPLE \
+USED IN PIRSA CLASS)\
+\>", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.},
+ CellChangeTimes->{{3.976700419050338*^9, 
+  3.976700454819222*^9}},ExpressionUUID->"176f97b1-164f-48e2-9096-\
+9cf01005aaec"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<Strong Coupling versus Weak Coupling\>\"", ",", 
+   "\"\<Carl Bender Example From PIRSA 2010?\>\""}], "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.},
+ CellChangeTimes->{{3.9767003397691708`*^9, 3.976700351002839*^9}, {
+  3.976700404735045*^9, 3.976700422767853*^9}},
+ CellLabel->"In[27]:=",ExpressionUUID->"647d6cd8-54d8-4a4c-98e5-9f9a236e7c5a"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"Strong Coupling versus Weak Coupling\"", {
+   "Carl Bender Example From PIRSA 2010?", None}, 
+   "Carl Bender Example From PIRSA 2010?"},
+  "HyperlinkDefault"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.},
+ CellChangeTimes->{
+  3.976700352092411*^9, {3.976700416742404*^9, 3.976700422768383*^9}},
+ CellLabel->"Out[27]=",ExpressionUUID->"f06ee374-08f5-4351-969c-ee8f10b91878"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Hyperlink To Cauchy Integral Formula Gives Dispersion Relations (Page 554) \
+(FIND MORE EXAMPLES)\
+\>", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.},
+ CellChangeTimes->{{3.976700510747192*^9, 
+  3.976700538116153*^9}},ExpressionUUID->"2929a7bf-ecbf-42fc-bfe0-\
+da97795a7997"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  "\"\<Cauchy Integral Formula Gives Dispersion Relations\>\"", 
+  "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.},
+ CellChangeTimes->{{3.976700492217494*^9, 3.976700514856927*^9}},
+ CellLabel->"In[28]:=",ExpressionUUID->"35b155c3-2499-43ee-a597-1123fd990ecc"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"Cauchy Integral Formula Gives Dispersion Relations\"", {
+   "Cauchy Integral Formula Gives Dispersion Relations", None}, 
+   "Cauchy Integral Formula Gives Dispersion Relations"},
+  "HyperlinkDefault"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.},
+ CellChangeTimes->{{3.976700508798067*^9, 3.9767005148573217`*^9}},
+ CellLabel->"Out[28]=",ExpressionUUID->"0151abc2-456d-4734-afa1-20a4ecf04bea"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Hyperlink to Optical Theorem(TOP of Page 560)  (FIND THIS)", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10003.},
+ CellChangeTimes->{{3.97670061628967*^9, 
+  3.97670065091807*^9}},ExpressionUUID->"73a16985-f34c-42ae-a819-\
+c81d8be88601"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", "\"\<Optical Theorem\>\"", "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10003.},
+ CellChangeTimes->{{3.976700605545061*^9, 
+  3.97670062094093*^9}},ExpressionUUID->"548bcbb5-a580-46d7-95c4-\
+1f72a99e5fae"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Hyperlink to Anti Hermitian Operator (Page 564) (FIND THIS)", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10004.},
+ CellChangeTimes->{{3.97670067897493*^9, 3.9767006789786987`*^9}, {
+  3.97670071182555*^9, 
+  3.9767007349500647`*^9}},ExpressionUUID->"301bfad0-43f4-49a5-a3d7-\
+e5e357caee6e"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<Anti Hermitian Operator\>\"", ",", 
+   "\"\<Find physical significance of Anti Hermitian Operator\>\""}], 
+  "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10004.},
+ CellChangeTimes->{{3.976700684236114*^9, 3.976700711825768*^9}},
+ CellLabel->"In[29]:=",ExpressionUUID->"611a632e-db50-4d3d-be17-ecac47544646"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"Anti Hermitian Operator\"", {
+   "Find physical significance of Anti Hermitian Operator", None}, 
+   "Find physical significance of Anti Hermitian Operator"},
+  "HyperlinkDefault"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10004.},
+ CellChangeTimes->{{3.976700706128734*^9, 3.976700711826091*^9}},
+ CellLabel->"Out[29]=",ExpressionUUID->"479ee86f-be0e-43f9-817d-37cb5ce3310d"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Hyperlink to Adiabatic Switching On and Off (Page 567) (FIND SIDNEY COLEMAN \
+DESCRIPTION OF THIS)\
+\>", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.},
+ CellChangeTimes->{{3.97670081177351*^9, 
+  3.976700843072288*^9}},ExpressionUUID->"a2b48b81-cf61-4149-b3f7-\
+072b607374f0"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<Adiabatic Switching On and Off\>\"", ",", 
+   "\"\<Find Sidney Coleman Description of This\>\""}], "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.},
+ CellChangeTimes->{{3.976700788008079*^9, 3.97670081547366*^9}},
+ CellLabel->"In[30]:=",ExpressionUUID->"2055ab2c-9b5b-4de0-9b4e-78939b901e3c"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"Adiabatic Switching On and Off\"", {
+   "Find Sidney Coleman Description of This", None}, 
+   "Find Sidney Coleman Description of This"},
+  "HyperlinkDefault"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.},
+ CellChangeTimes->{{3.9767008102126207`*^9, 3.976700815474052*^9}},
+ CellLabel->"Out[30]=",ExpressionUUID->"a5eeb932-4482-4b9b-959f-1de280573b9a"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Hyperlink to LSZ Formula (Citation Bottom Page 569) (FIND THIS)\
+\>", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10006.},
+ CellChangeTimes->{{3.976700900575438*^9, 3.9767009218091183`*^9}, {
+  3.976701009110732*^9, 
+  3.9767010152610283`*^9}},ExpressionUUID->"60e9e257-48d5-407b-aaba-\
+be50d6b19a82"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", "\"\<LSZ Formula\>\"", "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10006.},
+ CellChangeTimes->{{3.976700888540333*^9, 3.976700904765579*^9}},
+ CellLabel->"In[31]:=",ExpressionUUID->"c422bc79-5ced-4294-a91b-22926a687c73"],
+
+Cell[BoxData[
+ TemplateBox[{"\"LSZ Formula\"", {"LSZ Formula", None}, "LSZ Formula"},
+  "HyperlinkDefault"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10006.},
+ CellChangeTimes->{{3.976700898582796*^9, 3.9767009047659388`*^9}},
+ CellLabel->"Out[31]=",ExpressionUUID->"2d513543-4f3b-4201-8ae1-c033e383ec48"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Hyperlink (SINGULARITY ON LIGHT CONE - FIND RESOLUTION TO THIS!!!! ) (PAGE \
+597)\
+\>", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10007.},
+ CellChangeTimes->{{3.976701209417284*^9, 
+  3.976701240445723*^9}},ExpressionUUID->"0154f2f1-7e48-4743-aaa2-\
+dde04d754dfe"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{"\"\<Singularity on Light Cone\>\"", ",", "\"\<Page 597\>\""}], 
+  "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10007.},
+ CellChangeTimes->{{3.976701191141913*^9, 
+  3.9767012135007687`*^9}},ExpressionUUID->"d6bc77e5-e236-4895-8842-\
+2b293a359358"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Hyperlink to Description of Meson Field and Nucleon Field (Page 638) (Meson \
+is (1,0,-1) and Nuclean is proton, neutron, antiproton, antineutron) (FIND \
+THIS)\
+\>", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10008.},
+ CellChangeTimes->{{3.976701336665065*^9, 
+  3.9767014022240543`*^9}},ExpressionUUID->"3d335e01-13e9-48c2-b4ce-\
+f4931456902a"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{"\"\<Meson Field and Nucleon Field\>\"", ",", "\"\<Page 638\>\""}], 
+  "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10008.},
+ CellChangeTimes->{{3.976701310919242*^9, 
+  3.976701341406664*^9}},ExpressionUUID->"5b87cf22-4dba-46da-80b0-\
+7f10bf20c28f"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Hyperlink to Description of Perturbation Theory Compare and Contrast (Page \
+643) (FIND THIS)\
+\>", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10009.},
+ CellChangeTimes->{{3.976701484268272*^9, 
+  3.97670152081662*^9}},ExpressionUUID->"67e995ea-cc8d-40d6-b6cd-\
+29a943c5b536"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", "\[IndentingNewLine]", 
+  RowBox[{
+  "\"\<Conclusion Perturbation Theory\>\"", ",", 
+   "\"\<Main part of this book chapters III,IV,V is Taken up with systematic \
+and consistent development of perturbation theory DIFFERENT\>\""}], 
+  "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10009.},
+ CellChangeTimes->{{3.976701433323447*^9, 3.976701490328134*^9}},
+ CellLabel->"In[33]:=",ExpressionUUID->"81020cf0-5c2b-4951-b190-3c5781f11c29"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"Conclusion Perturbation Theory\"", {
+   "Main part of this book chapters III,IV,V is Taken up with systematic and \
+consistent development of perturbation theory DIFFERENT", None}, 
+   "Main part of this book chapters III,IV,V is Taken up with systematic and \
+consistent development of perturbation theory DIFFERENT"},
+  "HyperlinkDefault"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10009.},
+ CellChangeTimes->{
+  3.9767014441285267`*^9, {3.976701482169404*^9, 3.976701490328477*^9}},
+ CellLabel->"Out[33]=",ExpressionUUID->"8cf6899a-e3de-45a7-a984-088b9f2e4bcc"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Hyperlink To Advanced Mathematical Methods for Scientists and Engineers I \
+Asymptotic Methods and Perturbation Theory\
+\>", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10011.},
+ CellChangeTimes->{{3.976702290655341*^9, 
+  3.976702308811452*^9}},ExpressionUUID->"6d97bb2e-c469-47ce-946e-\
+01e3d77eb41c"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<Advanced Mathematical Methods for Scientists and Engineers I \
+Asymptotic Methods and Perturbation Theory\>\"", ",", "\[IndentingNewLine]", 
+   "\"\<https://link.springer.com/book/10.1007/978-1-4757-3069-2\>\""}], 
+  "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10011.},
+ CellChangeTimes->{{3.9767022540783*^9, 3.976702295988407*^9}},
+ CellLabel->"In[38]:=",ExpressionUUID->"6ecd96f9-63b0-4002-a88a-6c208ad52cc8"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"Advanced Mathematical Methods for Scientists and Engineers I Asymptotic \
+Methods and Perturbation Theory\"", 
+   "https://link.springer.com/book/10.1007/978-1-4757-3069-2"},
+  "HyperlinkURL"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10011.},
+ CellChangeTimes->{{3.976702272516528*^9, 3.976702295988921*^9}},
+ CellLabel->"Out[38]=",ExpressionUUID->"4ebbabad-7ae3-4d58-856e-d2d6753d6614"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<Advanced Mathematical Methods for Scientists and Engineers I \
+Asymptotic Methods and Perturbation Theory PDF\>\"", ",", 
+   "\[IndentingNewLine]", 
+   "\"\<https://mooc.inp-toulouse.fr/pluginfile.php/526/mod_resource/content/\
+3/OuvrageDeReferenceMPM.pdf\>\""}], "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10011.},
+ CellChangeTimes->{{3.976702229148069*^9, 3.976702233782494*^9}, {
+  3.9767022841351967`*^9, 3.9767022959894238`*^9}},
+ CellLabel->"In[39]:=",ExpressionUUID->"0ff9f7b9-5503-4dd9-8360-600f36632781"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"Advanced Mathematical Methods for Scientists and Engineers I Asymptotic \
+Methods and Perturbation Theory PDF\"", 
+   "https://mooc.inp-toulouse.fr/pluginfile.php/526/mod_resource/content/3/\
+OuvrageDeReferenceMPM.pdf"},
+  "HyperlinkURL"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10011.},
+ CellChangeTimes->{{3.976702288155663*^9, 3.97670229598984*^9}},
+ CellLabel->"Out[39]=",ExpressionUUID->"f7bbc916-1164-4178-b60f-ffd240096932"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<Perimeter PSI 2011 Carl Bender FIND THIS EXAMPLE OF WEAK VERSUS STRONG \
+COUPLING\>\"", ",", "\[IndentingNewLine]", 
+   "\"\<https://pirsa.org/c11025\>\""}], "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10011.},
+ CellChangeTimes->{{3.9767027821379757`*^9, 3.976702821072237*^9}},
+ CellLabel->"In[40]:=",ExpressionUUID->"544134df-57da-454b-8500-55a9f2d97a78"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"Perimeter PSI 2011 Carl Bender FIND THIS EXAMPLE OF WEAK VERSUS STRONG \
+COUPLING\"", "https://pirsa.org/c11025"},
+  "HyperlinkURL"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10011.},
+ CellChangeTimes->{{3.976702814608144*^9, 3.976702821072947*^9}},
+ CellLabel->"Out[40]=",ExpressionUUID->"3cc1a2e5-75ce-4274-b678-56a9a1ba217a"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Hyperlink to Functional Integration Action and Symmetries by Cartier and \
+DeWitt (Page 646)\
+\>", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10010.},
+ CellChangeTimes->{{3.976701641231493*^9, 
+  3.97670167550003*^9}},ExpressionUUID->"3a94c17f-5b32-4bc4-84f2-\
+8ca313b7c743"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<Functional Integration Action and Symmetries by Cartier and DeWit\>\"",
+    ",", "\[IndentingNewLine]", 
+   "\"\<https://www.cambridge.org/core/books/functional-integration/\
+2D7B67771B4AF069B0092164B1A0E2DB\>\""}], "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10010.},
+ CellChangeTimes->{{3.9767016203595867`*^9, 3.976701645005529*^9}, {
+  3.976701684680819*^9, 3.9767016879508953`*^9}},
+ CellLabel->"In[34]:=",ExpressionUUID->"6ea4589f-3c90-4436-a685-75f3d081b6ac"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"Functional Integration Action and Symmetries by Cartier and DeWit\"", 
+   "https://www.cambridge.org/core/books/functional-integration/\
+2D7B67771B4AF069B0092164B1A0E2DB"},
+  "HyperlinkURL"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10010.},
+ CellChangeTimes->{3.976701688331595*^9},
+ CellLabel->"Out[34]=",ExpressionUUID->"64a35958-4821-4454-ab83-576ff3ab8c6f"]
+}, Closed]]
+},
+WindowSize->{1242, 655},
+WindowMargins->{{4, Automatic}, {Automatic, 0}},
+FrontEndVersion->"13.0 for Mac OS X x86 (64-bit) (February 4, 2022)",
+StyleDefinitions->FrontEnd`FileName[{"Report"}, "StandardReport.nb", 
+  CharacterEncoding -> "UTF-8"],
+ExpressionUUID->"234500f6-6e44-4747-9742-70ac7d89c52d"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 1697, 25, 221, "Title",ExpressionUUID->"e7f2b880-8a83-4bac-a45d-7f511dd2a3e4",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.}],
+Cell[2280, 49, 1160, 20, 94, "Author",ExpressionUUID->"1a6fff76-c80f-485b-a3fb-5cdbbf019018",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.}]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3477, 74, 323, 7, 69, "Section",ExpressionUUID->"549758e3-62d0-45a5-8fb1-678833870b0a",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
+Cell[3803, 83, 486, 9, 63, "Input",ExpressionUUID->"f24a5c91-9e97-4f18-a3a0-e8dca68f3b06",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
+Cell[4292, 94, 434, 8, 43, "Output",ExpressionUUID->"2562d544-923e-4bcc-8389-f2eb60b6ad02",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.}]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[4763, 107, 337, 7, 55, "Section",ExpressionUUID->"3252e98d-83c4-4c67-a5db-524cf8d1f2e3",
+ CellGroupingRules->{"GroupTogetherGrouping", 10003.}],
+Cell[5103, 116, 432, 9, 63, "Input",ExpressionUUID->"22495d10-3d55-4831-a8ee-ca95f86f2b5e",
+ CellGroupingRules->{"GroupTogetherGrouping", 10003.}],
+Cell[5538, 127, 371, 7, 43, "Output",ExpressionUUID->"4a8d84d6-5478-4387-89b4-8f04e382fedc",
+ CellGroupingRules->{"GroupTogetherGrouping", 10003.}],
+Cell[5912, 136, 460, 10, 63, "Input",ExpressionUUID->"11313332-d9e9-4331-bf15-34c1f9f970e4",
+ CellGroupingRules->{"GroupTogetherGrouping", 10003.}],
+Cell[6375, 148, 399, 8, 43, "Output",ExpressionUUID->"e729f009-da55-4a19-9c29-2452925ad3cb",
+ CellGroupingRules->{"GroupTogetherGrouping", 10003.}],
+Cell[6777, 158, 429, 9, 63, "Input",ExpressionUUID->"bfe39d68-2c3e-4230-9f82-afe785e4c415",
+ CellGroupingRules->{"GroupTogetherGrouping", 10003.}],
+Cell[7209, 169, 373, 7, 43, "Output",ExpressionUUID->"c7ca4746-f2bc-4189-b612-c03e18e2859d",
+ CellGroupingRules->{"GroupTogetherGrouping", 10003.}]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[7619, 181, 331, 7, 55, "Section",ExpressionUUID->"9f7eaf0a-8511-44db-8358-3a77c924f786",
+ CellGroupingRules->{"GroupTogetherGrouping", 10004.}],
+Cell[7953, 190, 415, 8, 63, "Input",ExpressionUUID->"eee04224-e2d8-4ea6-b5e1-f014de02bb5e",
+ CellGroupingRules->{"GroupTogetherGrouping", 10004.}],
+Cell[8371, 200, 360, 7, 43, "Output",ExpressionUUID->"0129ce62-3a17-4f80-bd9c-3f21405b87c4",
+ CellGroupingRules->{"GroupTogetherGrouping", 10004.}]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[8768, 212, 313, 7, 55, "Section",ExpressionUUID->"3a2155de-151e-40f5-8d1c-f7a78444e1bd",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
+Cell[9084, 221, 473, 9, 63, "Input",ExpressionUUID->"e0db9e27-944c-478d-ad72-73a78d86982a",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
+Cell[9560, 232, 416, 8, 43, "Output",ExpressionUUID->"3e865e10-bea8-4961-8f54-7b144e26eb79",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
+Cell[9979, 242, 567, 11, 63, "Input",ExpressionUUID->"70f525d1-d13f-45fe-b38b-54612bebce55",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
+Cell[10549, 255, 487, 10, 43, "Output",ExpressionUUID->"04c38dde-a9d0-4cc3-944c-7cb3b44be059",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.}]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[11073, 270, 277, 6, 55, "Section",ExpressionUUID->"b7452d3f-45ba-4bf8-827c-2f9d37690c43",
+ CellGroupingRules->{"GroupTogetherGrouping", 10006.}],
+Cell[11353, 278, 388, 9, 41, "Input",ExpressionUUID->"530c453d-a40f-4404-bcd6-5d516f200ec1",
+ CellGroupingRules->{"GroupTogetherGrouping", 10006.}],
+Cell[11744, 289, 370, 7, 43, "Output",ExpressionUUID->"226edee5-287c-4e7c-ad4a-29575e05a2ab",
+ CellGroupingRules->{"GroupTogetherGrouping", 10006.}]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[12151, 301, 361, 8, 93, "Section",ExpressionUUID->"f02ad731-9370-424e-b8e8-059f29050220",
+ CellGroupingRules->{"GroupTogetherGrouping", 10007.}],
+Cell[12515, 311, 338, 6, 41, "Input",ExpressionUUID->"45124095-6957-4090-a7e0-e52f4a4b13de",
+ CellGroupingRules->{"GroupTogetherGrouping", 10007.}],
+Cell[12856, 319, 335, 6, 43, "Output",ExpressionUUID->"610e8fbb-bce2-4c5b-ab12-dff5cc7adce4",
+ CellGroupingRules->{"GroupTogetherGrouping", 10007.}]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[13228, 330, 314, 7, 93, "Section",ExpressionUUID->"39430508-f5eb-4c1f-9b84-a7757c1ca716",
+ CellGroupingRules->{"GroupTogetherGrouping", 10008.}],
+Cell[13545, 339, 367, 7, 41, "Input",ExpressionUUID->"71d39992-33df-43d7-9042-ada1bc938c8b",
+ CellGroupingRules->{"GroupTogetherGrouping", 10008.}],
+Cell[13915, 348, 399, 8, 43, "Output",ExpressionUUID->"12fc98c6-fb10-4c44-926e-331041680a28",
+ CellGroupingRules->{"GroupTogetherGrouping", 10008.}]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[14351, 361, 352, 7, 93, "Section",ExpressionUUID->"bd32847e-56cb-4edf-b719-2a84da4284ce",
+ CellGroupingRules->{"GroupTogetherGrouping", 10009.}],
+Cell[14706, 370, 401, 9, 41, "Input",ExpressionUUID->"20b52d53-e69c-4165-abdd-84feb7921406",
+ CellGroupingRules->{"GroupTogetherGrouping", 10009.}],
+Cell[15110, 381, 500, 10, 43, "Output",ExpressionUUID->"36bac985-6961-470f-8f9b-db527fefe59f",
+ CellGroupingRules->{"GroupTogetherGrouping", 10009.}]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[15647, 396, 327, 7, 93, "Section",ExpressionUUID->"0ec985ae-fa7f-46af-bbda-ccb2e864813c",
+ CellGroupingRules->{"GroupTogetherGrouping", 10010.}],
+Cell[15977, 405, 358, 7, 41, "Input",ExpressionUUID->"aa4cc094-95d8-491f-ad23-58cba04dadd7",
+ CellGroupingRules->{"GroupTogetherGrouping", 10010.}],
+Cell[16338, 414, 378, 7, 43, "Output",ExpressionUUID->"cf094856-29c9-47b0-8993-aed2268a05aa",
+ CellGroupingRules->{"GroupTogetherGrouping", 10010.}]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[16753, 426, 293, 7, 55, "Section",ExpressionUUID->"63c6dc3d-26e7-4c24-871a-ccf7fdfc17d6",
+ CellGroupingRules->{"GroupTogetherGrouping", 10011.}],
+Cell[17049, 435, 367, 7, 41, "Input",ExpressionUUID->"82ffa715-f763-49cc-86ad-9c76fe040718",
+ CellGroupingRules->{"GroupTogetherGrouping", 10011.}],
+Cell[17419, 444, 399, 8, 43, "Output",ExpressionUUID->"50d568e1-2692-478f-8cf0-75a1f028c3ae",
+ CellGroupingRules->{"GroupTogetherGrouping", 10011.}]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[17855, 457, 247, 4, 55, "Section",ExpressionUUID->"f4da4af8-1a03-44f3-8cd6-379e36a1f968",
+ CellGroupingRules->{"GroupTogetherGrouping", 10012.}],
+Cell[18105, 463, 376, 8, 41, "Input",ExpressionUUID->"21f9ae0e-f997-4dac-8cfa-6e12edfa8684",
+ CellGroupingRules->{"GroupTogetherGrouping", 10012.}],
+Cell[18484, 473, 408, 8, 43, "Output",ExpressionUUID->"298f35b7-e16f-4cff-bbbe-b50603b91d93",
+ CellGroupingRules->{"GroupTogetherGrouping", 10012.}]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[18929, 486, 291, 6, 55, "Section",ExpressionUUID->"9629537f-d921-4502-8e19-e45c2fd383ed",
+ CellGroupingRules->{"GroupTogetherGrouping", 10013.}],
+Cell[19223, 494, 396, 9, 41, "Input",ExpressionUUID->"fb4d227a-fd96-4278-9c8c-a6d8f764c11b",
+ CellGroupingRules->{"GroupTogetherGrouping", 10013.}]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[19656, 508, 365, 8, 93, "Section",ExpressionUUID->"c563d2fd-ca8d-463e-83b0-2339cd97c507",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
+Cell[20024, 518, 514, 9, 63, "Input",ExpressionUUID->"210fffec-71a4-48de-89c4-526eec644b0a",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
+Cell[20541, 529, 458, 8, 43, "Output",ExpressionUUID->"52fa0b12-e720-4606-847a-a15239d08d85",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.}]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[21036, 542, 308, 7, 93, "Section",ExpressionUUID->"176f97b1-164f-48e2-9096-9cf01005aaec",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.}],
+Cell[21347, 551, 429, 8, 41, "Input",ExpressionUUID->"647d6cd8-54d8-4a4c-98e5-9f9a236e7c5a",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.}],
+Cell[21779, 561, 430, 9, 43, "Output",ExpressionUUID->"f06ee374-08f5-4351-969c-ee8f10b91878",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.}]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[22246, 575, 305, 7, 55, "Section",ExpressionUUID->"2929a7bf-ecbf-42fc-bfe0-da97795a7997",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
+Cell[22554, 584, 325, 6, 41, "Input",ExpressionUUID->"35b155c3-2499-43ee-a597-1123fd990ecc",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
+Cell[22882, 592, 449, 8, 43, "Output",ExpressionUUID->"0151abc2-456d-4734-afa1-20a4ecf04bea",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.}]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[23368, 605, 256, 4, 55, "Section",ExpressionUUID->"73a16985-f34c-42ae-a819-c81d8be88601",
+ CellGroupingRules->{"GroupTogetherGrouping", 10003.}],
+Cell[23627, 611, 264, 5, 41, "Input",ExpressionUUID->"548bcbb5-a580-46d7-95c4-1f72a99e5fae",
+ CellGroupingRules->{"GroupTogetherGrouping", 10003.}]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[23928, 621, 310, 5, 55, "Section",ExpressionUUID->"301bfad0-43f4-49a5-a3d7-e5e357caee6e",
+ CellGroupingRules->{"GroupTogetherGrouping", 10004.}],
+Cell[24241, 628, 385, 8, 41, "Input",ExpressionUUID->"611a632e-db50-4d3d-be17-ecac47544646",
+ CellGroupingRules->{"GroupTogetherGrouping", 10004.}],
+Cell[24629, 638, 426, 8, 43, "Output",ExpressionUUID->"479ee86f-be0e-43f9-817d-37cb5ce3310d",
+ CellGroupingRules->{"GroupTogetherGrouping", 10004.}]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[25092, 651, 305, 7, 93, "Section",ExpressionUUID->"a2b48b81-cf61-4149-b3f7-072b607374f0",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
+Cell[25400, 660, 374, 7, 41, "Input",ExpressionUUID->"2055ab2c-9b5b-4de0-9b4e-78939b901e3c",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
+Cell[25777, 669, 407, 8, 43, "Output",ExpressionUUID->"a5eeb932-4482-4b9b-959f-1de280573b9a",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.}]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[26221, 682, 324, 7, 55, "Section",ExpressionUUID->"60e9e257-48d5-407b-aaba-be50d6b19a82",
+ CellGroupingRules->{"GroupTogetherGrouping", 10006.}],
+Cell[26548, 691, 280, 4, 41, "Input",ExpressionUUID->"c422bc79-5ced-4294-a91b-22926a687c73",
+ CellGroupingRules->{"GroupTogetherGrouping", 10006.}],
+Cell[26831, 697, 321, 5, 43, "Output",ExpressionUUID->"2d513543-4f3b-4201-8ae1-c033e383ec48",
+ CellGroupingRules->{"GroupTogetherGrouping", 10006.}]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[27189, 707, 289, 7, 55, "Section",ExpressionUUID->"0154f2f1-7e48-4743-aaa2-dde04d754dfe",
+ CellGroupingRules->{"GroupTogetherGrouping", 10007.}],
+Cell[27481, 716, 318, 7, 41, "Input",ExpressionUUID->"d6bc77e5-e236-4895-8842-2b293a359358",
+ CellGroupingRules->{"GroupTogetherGrouping", 10007.}]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[27836, 728, 370, 8, 93, "Section",ExpressionUUID->"3d335e01-13e9-48c2-b4ce-f4931456902a",
+ CellGroupingRules->{"GroupTogetherGrouping", 10008.}],
+Cell[28209, 738, 320, 7, 41, "Input",ExpressionUUID->"5b87cf22-4dba-46da-80b0-7f10bf20c28f",
+ CellGroupingRules->{"GroupTogetherGrouping", 10008.}]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[28566, 750, 300, 7, 55, "Section",ExpressionUUID->"67e995ea-cc8d-40d6-b6cd-29a943c5b536",
+ CellGroupingRules->{"GroupTogetherGrouping", 10009.}],
+Cell[28869, 759, 492, 9, 84, "Input",ExpressionUUID->"81020cf0-5c2b-4951-b190-3c5781f11c29",
+ CellGroupingRules->{"GroupTogetherGrouping", 10009.}],
+Cell[29364, 770, 614, 11, 43, "Output",ExpressionUUID->"8cf6899a-e3de-45a7-a984-088b9f2e4bcc",
+ CellGroupingRules->{"GroupTogetherGrouping", 10009.}]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[30015, 786, 326, 7, 93, "Section",ExpressionUUID->"6d97bb2e-c469-47ce-946e-01e3d77eb41c",
+ CellGroupingRules->{"GroupTogetherGrouping", 10011.}],
+Cell[30344, 795, 491, 9, 63, "Input",ExpressionUUID->"6ecd96f9-63b0-4002-a88a-6c208ad52cc8",
+ CellGroupingRules->{"GroupTogetherGrouping", 10011.}],
+Cell[30838, 806, 438, 8, 43, "Output",ExpressionUUID->"4ebbabad-7ae3-4d58-856e-d2d6753d6614",
+ CellGroupingRules->{"GroupTogetherGrouping", 10011.}],
+Cell[31279, 816, 593, 11, 63, "Input",ExpressionUUID->"0ff9f7b9-5503-4dd9-8360-600f36632781",
+ CellGroupingRules->{"GroupTogetherGrouping", 10011.}],
+Cell[31875, 829, 483, 9, 43, "Output",ExpressionUUID->"f7bbc916-1164-4178-b60f-ffd240096932",
+ CellGroupingRules->{"GroupTogetherGrouping", 10011.}],
+Cell[32361, 840, 436, 8, 63, "Input",ExpressionUUID->"544134df-57da-454b-8500-55a9f2d97a78",
+ CellGroupingRules->{"GroupTogetherGrouping", 10011.}],
+Cell[32800, 850, 378, 7, 43, "Output",ExpressionUUID->"3cc1a2e5-75ce-4274-b678-56a9a1ba217a",
+ CellGroupingRules->{"GroupTogetherGrouping", 10011.}]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[33215, 862, 299, 7, 55, "Section",ExpressionUUID->"3a94c17f-5b32-4bc4-84f2-8ca313b7c743",
+ CellGroupingRules->{"GroupTogetherGrouping", 10010.}],
+Cell[33517, 871, 545, 10, 63, "Input",ExpressionUUID->"6ea4589f-3c90-4436-a685-75f3d081b6ac",
+ CellGroupingRules->{"GroupTogetherGrouping", 10010.}],
+Cell[34065, 883, 412, 8, 43, "Output",ExpressionUUID->"64a35958-4821-4454-ab83-576ff3ab8c6f",
+ CellGroupingRules->{"GroupTogetherGrouping", 10010.}]
+}, Closed]]
+}
+]
+*)
+
