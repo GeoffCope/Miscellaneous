@@ -1,0 +1,196 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      8441,        188]
+NotebookOptionsPosition[      6711,        152]
+NotebookOutlinePosition[      7177,        169]
+CellTagsIndexPosition[      7134,        166]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["\<\
+Notebook for :  
+Ellipsoidal Figures of Equilibrium by Chandrasekhar\
+\>", "Title",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.},
+ CellChangeTimes->{{3.8217294718661222`*^9, 3.821729502043838*^9}, 
+   3.8217295683553457`*^9, 3.821732221863006*^9, {3.821811203295624*^9, 
+   3.8218112036548367`*^9}, {3.822041768762134*^9, 3.822041781290854*^9}, {
+   3.822048009752109*^9, 3.8220480569607773`*^9}, {3.822504877727007*^9, 
+   3.8225048874039307`*^9}, {3.822565447028533*^9, 3.822565457908236*^9}, {
+   3.822822107930128*^9, 3.822822113128089*^9}, {3.823176459993638*^9, 
+   3.823176470345335*^9}, {3.823359338529508*^9, 3.823359361520629*^9}, {
+   3.823422938182802*^9, 3.823422938584877*^9}, {3.823431880221382*^9, 
+   3.823431897644202*^9}, {3.82343570279051*^9, 3.823435714197551*^9}, {
+   3.8279532410864677`*^9, 3.8279532445579853`*^9}, {3.82795429722185*^9, 
+   3.827954302845343*^9}, {3.827956183129569*^9, 3.8279561871771517`*^9}, 
+   3.8510088216927958`*^9, {3.851065387457584*^9, 3.8510653950417137`*^9}, {
+   3.8510682768154383`*^9, 3.851068280871207*^9}, {3.8510997628523493`*^9, 
+   3.8510997737509108`*^9}, {3.851112556690555*^9, 3.851112614497939*^9}, {
+   3.861873084561179*^9, 3.861873110928751*^9}, 3.861873468099904*^9, {
+   3.862044418961834*^9, 3.862044450225502*^9}, {3.862217840411951*^9, 
+   3.862217846123966*^9}, {3.885642494073176*^9, 3.8856424959454937`*^9}, {
+   3.976563957414098*^9, 3.976563969939114*^9}, {3.9766267383871*^9, 
+   3.976626751346908*^9}, {3.976641846176968*^9, 3.97664187377738*^9}, {
+   3.976697712476507*^9, 3.976697736088396*^9}, {3.976703159781015*^9, 
+   3.976703181846949*^9}},
+ TextAlignment->Center,ExpressionUUID->"290911b1-d6f3-481b-86f5-fc59ac07f1b8"],
+
+Cell["\<\
+Geoff Cope
+University of Utah
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\|01040f\|01042d\|01044c\|010432\|010442\|010432\
+\|010449\|010445\|01042e\|01043b\|010428 \|010432\|010442 \|01040f\|01042d\
+\|01043b\|01042by 
+January 6, 2026\
+\>", "Author",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.},
+ CellChangeTimes->{{3.821729507652328*^9, 3.821729529657844*^9}, 
+   3.8220480097522783`*^9, {3.822048070235491*^9, 3.822048084689715*^9}, {
+   3.8225654346519403`*^9, 3.8225654361641483`*^9}, {3.8231764728567343`*^9, 
+   3.823176482313031*^9}, {3.8233640113399878`*^9, 3.823364023347041*^9}, {
+   3.8234229506702557`*^9, 3.823422956381791*^9}, {3.827953252419902*^9, 
+   3.827953254868108*^9}, {3.851065213363542*^9, 3.8510652255731983`*^9}, {
+   3.8510652620952*^9, 3.851065307413348*^9}, {3.85109882342251*^9, 
+   3.851098834342609*^9}, 3.851112556690649*^9, 3.861873468099978*^9, {
+   3.861874316220215*^9, 3.861874319756319*^9}, {3.976563971664147*^9, 
+   3.976563975864481*^9}, {3.976626768192091*^9, 3.976626768491643*^9}, {
+   3.97669771774374*^9, 3.976697717921764*^9}, {3.97670325932283*^9, 
+   3.976703259578102*^9}},
+ TextAlignment->Center,ExpressionUUID->"17367a4d-2458-40ce-92c3-e7a56fc8329f"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Hyperlink To Book  and References (Look Up Padmanabhan Volume 3 Reference, \
+Teukolsky, Riemann, Carter\[CloseCurlyQuote]s Constant)\
+\>", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.},
+ CellChangeTimes->{{3.9767033694931927`*^9, 3.97670339270575*^9}, {
+  3.976703446197747*^9, 3.97670347340829*^9}, {3.976703547764509*^9, 
+  3.976703549474594*^9}, {3.97670369407763*^9, 3.976703696642708*^9}, {
+  3.9767046879386177`*^9, 
+  3.976704692228648*^9}},ExpressionUUID->"8ca303de-d361-4c36-92f4-\
+53d425acc450"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<Ellipsoidal Figures of Equilibrium by Chandrasekhar\>\"", ",", 
+   "\[IndentingNewLine]", "\"\<History of Ellipsoidal Figures\>\""}], 
+  "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.},
+ CellChangeTimes->{{3.9767032796958427`*^9, 3.976703330515689*^9}, 
+   3.97670337478537*^9},
+ CellLabel->"In[42]:=",ExpressionUUID->"a324e7ac-2640-4c3c-95ac-2f7ce7624d36"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"Ellipsoidal Figures of Equilibrium by Chandrasekhar\"", {
+   "History of Ellipsoidal Figures", None}, "History of Ellipsoidal Figures"},
+  
+  "HyperlinkDefault"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.},
+ CellChangeTimes->{{3.976703301330014*^9, 3.976703331159889*^9}, 
+   3.9767033747859917`*^9},
+ CellLabel->"Out[42]=",ExpressionUUID->"477df663-5be5-4d2c-ad12-bbd9663be02d"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<Ellipsoidal Figures of Equilibrium by Chandrasekhar\>\"", ",", 
+   "\"\<https://arxiv.org/abs/gr-qc/0511078\>\""}], "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.},
+ CellChangeTimes->{{3.97670431854391*^9, 3.9767043237915297`*^9}, {
+   3.9767044074780607`*^9, 3.97670443188386*^9}, {3.976704471395508*^9, 
+   3.976704538610839*^9}, 3.97670463094917*^9},
+ CellLabel->"In[47]:=",ExpressionUUID->"57208ff4-de03-42f7-9d36-6fd04a779fc6"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"Ellipsoidal Figures of Equilibrium by Chandrasekhar\"", 
+   "https://arxiv.org/abs/gr-qc/0511078"},
+  "HyperlinkURL"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.},
+ CellChangeTimes->{{3.976704410201626*^9, 3.976704432476667*^9}, {
+   3.976704493289538*^9, 3.976704539191422*^9}, 3.9767046309500504`*^9},
+ CellLabel->"Out[47]=",ExpressionUUID->"7b41d835-b67e-494f-a069-41670b7e5520"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<Carter's Constant\>\"", ",", 
+   "\"\<https://en.wikipedia.org/wiki/Carter_constant\>\""}], "]"}]], "Input",\
+
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.},
+ CellChangeTimes->{{3.976704559761607*^9, 3.976704599467122*^9}, 
+   3.9767046309505243`*^9},
+ CellLabel->"In[50]:=",ExpressionUUID->"9d1963f3-dc9c-40bd-9a5e-b9ca4e5f69d7"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"Carter's Constant\"", "https://en.wikipedia.org/wiki/Carter_constant"},
+  "HyperlinkURL"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.},
+ CellChangeTimes->{{3.9767045673132973`*^9, 3.976704599883753*^9}, 
+   3.976704630950992*^9},
+ CellLabel->"Out[50]=",ExpressionUUID->"1d05f2ba-5280-4b17-a317-e79b51bcf48c"]
+}, Closed]]
+},
+WindowSize->{1276, 655},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"13.0 for Mac OS X x86 (64-bit) (February 4, 2022)",
+StyleDefinitions->FrontEnd`FileName[{"Report"}, "StandardReport.nb", 
+  CharacterEncoding -> "UTF-8"],
+ExpressionUUID->"2d457028-248f-4695-b24d-1ae2cb2f86db"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 1726, 26, 159, "Title",ExpressionUUID->"290911b1-d6f3-481b-86f5-fc59ac07f1b8",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.}],
+Cell[2309, 50, 1209, 21, 94, "Author",ExpressionUUID->"17367a4d-2458-40ce-92c3-e7a56fc8329f",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.}]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3555, 76, 534, 10, 107, "Section",ExpressionUUID->"8ca303de-d361-4c36-92f4-53d425acc450",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
+Cell[4092, 88, 440, 9, 63, "Input",ExpressionUUID->"a324e7ac-2640-4c3c-95ac-2f7ce7624d36",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
+Cell[4535, 99, 435, 9, 43, "Output",ExpressionUUID->"477df663-5be5-4d2c-ad12-bbd9663be02d",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
+Cell[4973, 110, 515, 9, 41, "Input",ExpressionUUID->"57208ff4-de03-42f7-9d36-6fd04a779fc6",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
+Cell[5491, 121, 437, 8, 43, "Output",ExpressionUUID->"7b41d835-b67e-494f-a069-41670b7e5520",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
+Cell[5931, 131, 398, 9, 41, "Input",ExpressionUUID->"9d1963f3-dc9c-40bd-9a5e-b9ca4e5f69d7",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
+Cell[6332, 142, 363, 7, 43, "Output",ExpressionUUID->"1d05f2ba-5280-4b17-a317-e79b51bcf48c",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.}]
+}, Closed]]
+}
+]
+*)
+
