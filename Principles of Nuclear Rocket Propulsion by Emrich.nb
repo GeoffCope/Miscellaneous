@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     18032,        407]
-NotebookOptionsPosition[     13371,        327]
-NotebookOutlinePosition[     13837,        344]
-CellTagsIndexPosition[     13794,        341]
+NotebookDataLength[     28295,        653]
+NotebookOptionsPosition[     20399,        519]
+NotebookOutlinePosition[     20869,        536]
+CellTagsIndexPosition[     20826,        533]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -104,6 +104,38 @@ Cell[BoxData[
 
 Cell[CellGroupData[{
 
+Cell["\<\
+Hyperlink to George Dyson Books (Need to Look Up Project Orion and Esther \
+Dyson Books)\
+\>", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10006.},
+ CellChangeTimes->{{3.976707642498282*^9, 
+  3.976707682542336*^9}},ExpressionUUID->"f09249a9-a1a2-4365-a162-\
+a57c973fcca9"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<George Dyson Books Including Project Orion\>\"", ",", 
+   "\"\<https://www.amazon.com/stores/George-Dyson/author/B004LQA05E?ref=ap_\
+rdr&shoppingPortalEnabled=true\>\""}], "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10006.},
+ CellChangeTimes->{{3.9767076176534452`*^9, 3.97670764676512*^9}},
+ CellLabel->"In[72]:=",ExpressionUUID->"099da9de-37c7-4019-828f-d28b194562ce"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"George Dyson Books Including Project Orion\"", 
+   "https://www.amazon.com/stores/George-Dyson/author/B004LQA05E?ref=ap_rdr&\
+shoppingPortalEnabled=true"},
+  "HyperlinkURL"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10006.},
+ CellChangeTimes->{{3.9767076400713654`*^9, 3.976707646765678*^9}},
+ CellLabel->"Out[72]=",ExpressionUUID->"d9f647c7-51e3-4faf-b842-d18f5c58b4ca"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
 Cell["Hyperlink To Project Orion Documentary", "Section",
  CellGroupingRules->{"GroupTogetherGrouping", 10003.},
  CellChangeTimes->{{3.976706388022376*^9, 
@@ -127,6 +159,64 @@ Cell[BoxData[
  CellGroupingRules->{"GroupTogetherGrouping", 10003.},
  CellChangeTimes->{{3.976706383110107*^9, 3.9767063921084547`*^9}},
  CellLabel->"Out[58]=",ExpressionUUID->"ff8809d7-04fd-4abf-9be4-bb63f3aaef2a"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Perpetual Atomics Americium (Find Americium as End Product In Fuel Cycle)\
+\>", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10004.},
+ CellChangeTimes->{{3.976707830692429*^9, 
+  3.976707863130694*^9}},ExpressionUUID->"02446688-edbe-4836-84f8-\
+23db45b68f57"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<Perpetual Atomics Americium\>\"", ",", "\[IndentingNewLine]", 
+   "\"\<https://www.perpetualatomics.com/\>\""}], "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10004.},
+ CellChangeTimes->{{3.9767078150709457`*^9, 3.9767078351061287`*^9}},
+ CellLabel->"In[74]:=",ExpressionUUID->"32b4d2db-8b45-4e2f-aa78-20752418f0d2"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"Perpetual Atomics Americium\"", "https://www.perpetualatomics.com/"},
+  "HyperlinkURL"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10004.},
+ CellChangeTimes->{{3.9767078269465103`*^9, 3.9767078351065474`*^9}},
+ CellLabel->"Out[74]=",ExpressionUUID->"36ecd2b9-7ed7-45fc-bafb-7a4a8c70c9b8"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Perpetual Atomics ( Check Ohio Facility )", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.},
+ CellChangeTimes->{{3.976707865689596*^9, 
+  3.9767078801286716`*^9}},ExpressionUUID->"4bd552d8-47ce-42b4-9b5d-\
+ee0d749d4408"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<Perpetual Atomics News\>\"", ",", "\[IndentingNewLine]", 
+   "\"\<https://le.ac.uk/news/2025/november/space-park-leicester-perpetual-\
+atomics-radioisotope-heater-unit-safety-testing\>\""}], "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.},
+ CellChangeTimes->{{3.9767077850409403`*^9, 3.97670779587033*^9}, 
+   3.976707870098423*^9},
+ CellLabel->"In[73]:=",ExpressionUUID->"34d0a303-3f7c-4ba3-9e50-38ce9b8f70aa"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"Perpetual Atomics News\"", 
+   "https://le.ac.uk/news/2025/november/space-park-leicester-perpetual-\
+atomics-radioisotope-heater-unit-safety-testing"},
+  "HyperlinkURL"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.},
+ CellChangeTimes->{3.9767077962521057`*^9, 3.976707870099236*^9},
+ CellLabel->"Out[73]=",ExpressionUUID->"7e242cf6-9276-46c3-b93a-bf96d5accb94"]
 }, Closed]],
 
 Cell[CellGroupData[{
@@ -323,10 +413,112 @@ Cell[BoxData[
  CellGroupingRules->{"GroupTogetherGrouping", 10005.},
  CellChangeTimes->{{3.9767067324932537`*^9, 3.9767067402873*^9}},
  CellLabel->"Out[60]=",ExpressionUUID->"6ab7fcff-b72a-490a-947a-f48f999b3861"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Big Glass Building Off 28 South of Dulles Airport (Find Vandenberg Launches)\
+\>", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10006.},
+ CellChangeTimes->{{3.9767079221663437`*^9, 
+  3.976707948092819*^9}},ExpressionUUID->"f5a36f94-7d83-4ebc-9a68-\
+8942317dc3c7"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{"\"\<NRO Chantilly\>\"", ",", "\"\<https://www.nro.gov/\>\""}], 
+  "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10006.},
+ CellChangeTimes->{{3.97670790930485*^9, 
+  3.976707926287232*^9}},ExpressionUUID->"0b1ed46e-0556-4ff8-9a78-\
+529ef0f28173"],
+
+Cell[BoxData[
+ TemplateBox[{"\"NRO Chantilly\"", "https://www.nro.gov/"},
+  "HyperlinkURL"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10006.},
+ CellChangeTimes->{{3.976707919493443*^9, 3.97670792628804*^9}},
+ CellLabel->"Out[75]=",ExpressionUUID->"51082011-d454-423d-a2c7-69c4ad7e1726"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Wallops", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10007.},
+ CellChangeTimes->{{3.976707998335746*^9, 
+  3.976708006684206*^9}},ExpressionUUID->"8024fc4e-45e9-47b8-b6d3-\
+08131d44be66"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<Wallops Launch Facility\>\"", ",", 
+   "\"\<https://www.nasa.gov/wallops/\>\""}], "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10007.},
+ CellChangeTimes->{{3.976707981051544*^9, 3.976708002351239*^9}},
+ CellLabel->"In[76]:=",ExpressionUUID->"d1340294-15c1-4765-bbc7-6eb96b4b4bfd"],
+
+Cell[BoxData[
+ TemplateBox[{"\"Wallops Launch Facility\"", "https://www.nasa.gov/wallops/"},
+  
+  "HyperlinkURL"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10007.},
+ CellChangeTimes->{{3.976707996911703*^9, 3.976708002351778*^9}},
+ CellLabel->"Out[76]=",ExpressionUUID->"55038c87-d700-46fc-baa2-a03a6f3cdcea"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Vandenberg Launch Facility", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10008.},
+ CellChangeTimes->{{3.976708063032838*^9, 
+  3.976708107696518*^9}},ExpressionUUID->"2476dd7c-cd20-4ace-a3a6-\
+244e276eff1a"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<Vandenberg Launch Facility\>\"", ",", 
+   "\"\<https://www.vandenberg.spaceforce.mil/\>\""}], "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10008.},
+ CellChangeTimes->{{3.9767080451016493`*^9, 3.9767080713962107`*^9}},
+ CellLabel->"In[78]:=",ExpressionUUID->"7adcc669-1c2d-4fd8-ba7c-9649d3fbfadd"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"Vandenberg Launch Facility\"", "https://www.vandenberg.spaceforce.mil/"},
+  
+  "HyperlinkURL"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10008.},
+ CellChangeTimes->{{3.976708057976519*^9, 3.976708071397043*^9}},
+ CellLabel->"Out[78]=",ExpressionUUID->"1bfa8b0c-3e3c-4985-9dde-4103ad570ab3"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Soviet Akademik Deep Space Monitoring Via Ship - See Gagarin and Korolev (The \
+Designer)\
+\>", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10009.},
+ CellChangeTimes->{{3.976708175474848*^9, 3.976708219898718*^9}, {
+  3.976708311475967*^9, 
+  3.9767083381165953`*^9}},ExpressionUUID->"6045eaa3-6708-4073-9bb2-\
+4523473a1f16"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  "\"\<https://en.wikipedia.org/wiki/Soviet_ship_Kosmonavt_Yuriy_Gagarin\>\"",
+   "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10009.},
+ CellChangeTimes->{{3.97670816934933*^9, 
+  3.976708180088592*^9}},ExpressionUUID->"98798c0c-f430-4cc5-bd87-\
+df3d6fb0eb96"]
 }, Closed]]
 },
 WindowSize->{1280, 754},
-WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowMargins->{{-1272, Automatic}, {Automatic, 0}},
 FrontEndVersion->"13.0 for Mac OS X x86 (64-bit) (February 4, 2022)",
 StyleDefinitions->FrontEnd`FileName[{"Report"}, "StandardReport.nb", 
   CharacterEncoding -> "UTF-8"],
@@ -358,60 +550,112 @@ Cell[4270, 93, 408, 8, 43, "Output",ExpressionUUID->"8fec6bec-c01b-4dc1-89eb-639
  CellGroupingRules->{"GroupTogetherGrouping", 10002.}]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[4715, 106, 238, 4, 55, "Section",ExpressionUUID->"11097978-1771-4b31-b6bb-79fcadb0f696",
+Cell[4715, 106, 296, 7, 55, "Section",ExpressionUUID->"f09249a9-a1a2-4365-a162-a57c973fcca9",
+ CellGroupingRules->{"GroupTogetherGrouping", 10006.}],
+Cell[5014, 115, 449, 8, 63, "Input",ExpressionUUID->"099da9de-37c7-4019-828f-d28b194562ce",
+ CellGroupingRules->{"GroupTogetherGrouping", 10006.}],
+Cell[5466, 125, 421, 8, 43, "Output",ExpressionUUID->"d9f647c7-51e3-4faf-b842-d18f5c58b4ca",
+ CellGroupingRules->{"GroupTogetherGrouping", 10006.}]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[5924, 138, 238, 4, 55, "Section",ExpressionUUID->"11097978-1771-4b31-b6bb-79fcadb0f696",
  CellGroupingRules->{"GroupTogetherGrouping", 10003.}],
-Cell[4956, 112, 401, 7, 41, "Input",ExpressionUUID->"834e789e-3b0c-40f0-a828-0ba356fae669",
+Cell[6165, 144, 401, 7, 41, "Input",ExpressionUUID->"834e789e-3b0c-40f0-a828-0ba356fae669",
  CellGroupingRules->{"GroupTogetherGrouping", 10003.}],
-Cell[5360, 121, 372, 7, 43, "Output",ExpressionUUID->"ff8809d7-04fd-4abf-9be4-bb63f3aaef2a",
+Cell[6569, 153, 372, 7, 43, "Output",ExpressionUUID->"ff8809d7-04fd-4abf-9be4-bb63f3aaef2a",
  CellGroupingRules->{"GroupTogetherGrouping", 10003.}]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[5769, 133, 220, 4, 55, "Section",ExpressionUUID->"cac376ab-a451-4316-a15e-109b6fc9baa6",
+Cell[6978, 165, 281, 6, 55, "Section",ExpressionUUID->"02446688-edbe-4836-84f8-23db45b68f57",
  CellGroupingRules->{"GroupTogetherGrouping", 10004.}],
-Cell[5992, 139, 443, 9, 63, "Input",ExpressionUUID->"5692cf49-4c0c-4c98-a786-8197f60f6bf5",
+Cell[7262, 173, 393, 7, 63, "Input",ExpressionUUID->"32b4d2db-8b45-4e2f-aa78-20752418f0d2",
  CellGroupingRules->{"GroupTogetherGrouping", 10004.}],
-Cell[6438, 150, 385, 7, 43, "Output",ExpressionUUID->"cc110735-1e17-4b0a-b913-670dd17afff8",
+Cell[7658, 182, 337, 6, 43, "Output",ExpressionUUID->"36ecd2b9-7ed7-45fc-bafb-7a4a8c70c9b8",
  CellGroupingRules->{"GroupTogetherGrouping", 10004.}]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[6860, 162, 375, 9, 93, "Section",ExpressionUUID->"2d8fd3f6-05eb-4209-9c03-91425fd4a1b8",
+Cell[8032, 193, 243, 4, 55, "Section",ExpressionUUID->"4bd552d8-47ce-42b4-9b5d-ee0d749d4408",
  CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
-Cell[7238, 173, 446, 9, 63, "Input",ExpressionUUID->"f4580c11-07da-4eaa-a231-e38a111e40ea",
+Cell[8278, 199, 494, 9, 63, "Input",ExpressionUUID->"34d0a303-3f7c-4ba3-9e50-38ce9b8f70aa",
  CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
-Cell[7687, 184, 362, 7, 43, "Output",ExpressionUUID->"22337ef5-4f5a-4386-8674-c1fcfb46fdd0",
- CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
-Cell[8052, 193, 449, 8, 63, "Input",ExpressionUUID->"6f5ff614-aa9f-481a-b2bf-01e7a1090916",
- CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
-Cell[8504, 203, 371, 8, 43, "Output",ExpressionUUID->"3c678f6e-bddd-4aab-9cdc-60a6739659da",
- CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
-Cell[8878, 213, 370, 7, 41, "Input",ExpressionUUID->"ae8c7f87-1d0c-49a2-bf04-ae60785c0008",
- CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
-Cell[9251, 222, 334, 6, 43, "Output",ExpressionUUID->"b8947b97-7485-463d-94d7-b7beb82159fc",
- CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
-Cell[9588, 230, 381, 8, 41, "Input",ExpressionUUID->"51d5af5a-9b98-47ed-92cd-e246c1f0b618",
- CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
-Cell[9972, 240, 325, 7, 43, "Output",ExpressionUUID->"25dc9be6-843f-49d3-97af-d02686446d1d",
- CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
-Cell[10300, 249, 427, 8, 63, "Input",ExpressionUUID->"1ae1c360-a347-4b25-966a-54e3834ba3ab",
- CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
-Cell[10730, 259, 351, 8, 43, "Output",ExpressionUUID->"e82d1cce-af38-435e-9e13-a440af13955c",
- CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
-Cell[11084, 269, 461, 8, 63, "Input",ExpressionUUID->"61b5a7e5-7320-4f8b-b658-0a2a6a96bc3a",
- CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
-Cell[11548, 279, 385, 8, 43, "Output",ExpressionUUID->"d8199fed-9bb9-4b4a-b6a8-64c22d3a1412",
- CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
-Cell[11936, 289, 421, 8, 63, "Input",ExpressionUUID->"35b3a044-23f0-45b4-9803-10f9575f079e",
- CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
-Cell[12360, 299, 341, 8, 43, "Output",ExpressionUUID->"5d02f748-442d-461c-a532-d7b402893ca4",
- CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
-Cell[12704, 309, 332, 8, 41, "Input",ExpressionUUID->"96810953-ac01-4f41-bdc5-0e3911cdbb51",
- CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
-Cell[13039, 319, 316, 5, 43, "Output",ExpressionUUID->"6ab7fcff-b72a-490a-947a-f48f999b3861",
+Cell[8775, 210, 415, 8, 43, "Output",ExpressionUUID->"7e242cf6-9276-46c3-b93a-bf96d5accb94",
  CellGroupingRules->{"GroupTogetherGrouping", 10005.}]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[9227, 223, 220, 4, 55, "Section",ExpressionUUID->"cac376ab-a451-4316-a15e-109b6fc9baa6",
+ CellGroupingRules->{"GroupTogetherGrouping", 10004.}],
+Cell[9450, 229, 443, 9, 63, "Input",ExpressionUUID->"5692cf49-4c0c-4c98-a786-8197f60f6bf5",
+ CellGroupingRules->{"GroupTogetherGrouping", 10004.}],
+Cell[9896, 240, 385, 7, 43, "Output",ExpressionUUID->"cc110735-1e17-4b0a-b913-670dd17afff8",
+ CellGroupingRules->{"GroupTogetherGrouping", 10004.}]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[10318, 252, 375, 9, 93, "Section",ExpressionUUID->"2d8fd3f6-05eb-4209-9c03-91425fd4a1b8",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
+Cell[10696, 263, 446, 9, 63, "Input",ExpressionUUID->"f4580c11-07da-4eaa-a231-e38a111e40ea",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
+Cell[11145, 274, 362, 7, 43, "Output",ExpressionUUID->"22337ef5-4f5a-4386-8674-c1fcfb46fdd0",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
+Cell[11510, 283, 449, 8, 63, "Input",ExpressionUUID->"6f5ff614-aa9f-481a-b2bf-01e7a1090916",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
+Cell[11962, 293, 371, 8, 43, "Output",ExpressionUUID->"3c678f6e-bddd-4aab-9cdc-60a6739659da",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
+Cell[12336, 303, 370, 7, 41, "Input",ExpressionUUID->"ae8c7f87-1d0c-49a2-bf04-ae60785c0008",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
+Cell[12709, 312, 334, 6, 43, "Output",ExpressionUUID->"b8947b97-7485-463d-94d7-b7beb82159fc",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
+Cell[13046, 320, 381, 8, 41, "Input",ExpressionUUID->"51d5af5a-9b98-47ed-92cd-e246c1f0b618",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
+Cell[13430, 330, 325, 7, 43, "Output",ExpressionUUID->"25dc9be6-843f-49d3-97af-d02686446d1d",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
+Cell[13758, 339, 427, 8, 63, "Input",ExpressionUUID->"1ae1c360-a347-4b25-966a-54e3834ba3ab",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
+Cell[14188, 349, 351, 8, 43, "Output",ExpressionUUID->"e82d1cce-af38-435e-9e13-a440af13955c",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
+Cell[14542, 359, 461, 8, 63, "Input",ExpressionUUID->"61b5a7e5-7320-4f8b-b658-0a2a6a96bc3a",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
+Cell[15006, 369, 385, 8, 43, "Output",ExpressionUUID->"d8199fed-9bb9-4b4a-b6a8-64c22d3a1412",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
+Cell[15394, 379, 421, 8, 63, "Input",ExpressionUUID->"35b3a044-23f0-45b4-9803-10f9575f079e",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
+Cell[15818, 389, 341, 8, 43, "Output",ExpressionUUID->"5d02f748-442d-461c-a532-d7b402893ca4",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
+Cell[16162, 399, 332, 8, 41, "Input",ExpressionUUID->"96810953-ac01-4f41-bdc5-0e3911cdbb51",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.}],
+Cell[16497, 409, 316, 5, 43, "Output",ExpressionUUID->"6ab7fcff-b72a-490a-947a-f48f999b3861",
+ CellGroupingRules->{"GroupTogetherGrouping", 10005.}]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[16850, 419, 286, 6, 55, "Section",ExpressionUUID->"f5a36f94-7d83-4ebc-9a68-8942317dc3c7",
+ CellGroupingRules->{"GroupTogetherGrouping", 10006.}],
+Cell[17139, 427, 315, 7, 41, "Input",ExpressionUUID->"0b1ed46e-0556-4ff8-9a78-529ef0f28173",
+ CellGroupingRules->{"GroupTogetherGrouping", 10006.}],
+Cell[17457, 436, 302, 5, 43, "Output",ExpressionUUID->"51082011-d454-423d-a2c7-69c4ad7e1726",
+ CellGroupingRules->{"GroupTogetherGrouping", 10006.}]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[17796, 446, 207, 4, 55, "Section",ExpressionUUID->"8024fc4e-45e9-47b8-b6d3-08131d44be66",
+ CellGroupingRules->{"GroupTogetherGrouping", 10007.}],
+Cell[18006, 452, 358, 7, 41, "Input",ExpressionUUID->"d1340294-15c1-4765-bbc7-6eb96b4b4bfd",
+ CellGroupingRules->{"GroupTogetherGrouping", 10007.}],
+Cell[18367, 461, 325, 6, 43, "Output",ExpressionUUID->"55038c87-d700-46fc-baa2-a03a6f3cdcea",
+ CellGroupingRules->{"GroupTogetherGrouping", 10007.}]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[18729, 472, 226, 4, 55, "Section",ExpressionUUID->"2476dd7c-cd20-4ace-a3a6-244e276eff1a",
+ CellGroupingRules->{"GroupTogetherGrouping", 10008.}],
+Cell[18958, 478, 374, 7, 41, "Input",ExpressionUUID->"7adcc669-1c2d-4fd8-ba7c-9649d3fbfadd",
+ CellGroupingRules->{"GroupTogetherGrouping", 10008.}],
+Cell[19335, 487, 340, 7, 43, "Output",ExpressionUUID->"1bfa8b0c-3e3c-4985-9dde-4103ad570ab3",
+ CellGroupingRules->{"GroupTogetherGrouping", 10008.}]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[19712, 499, 348, 8, 55, "Section",ExpressionUUID->"6045eaa3-6708-4073-9bb2-4523473a1f16",
+ CellGroupingRules->{"GroupTogetherGrouping", 10009.}],
+Cell[20063, 509, 320, 7, 41, "Input",ExpressionUUID->"98798c0c-f430-4cc5-bd87-df3d6fb0eb96",
+ CellGroupingRules->{"GroupTogetherGrouping", 10009.}]
 }, Closed]]
 }
 ]
 *)
-
-(* End of internal cache information *)
 
