@@ -1,0 +1,155 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      6478,        147]
+NotebookOptionsPosition[      5246,        118]
+NotebookOutlinePosition[      5716,        135]
+CellTagsIndexPosition[      5673,        132]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["\<\
+Notebook for :  
+Los Alamos Scientific Laboratory Explosive Property Data ISBN0-520-04012-0\
+\>", "Title",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.},
+ CellChangeTimes->{{3.8217294718661222`*^9, 3.821729502043838*^9}, 
+   3.8217295683553457`*^9, 3.821732221863006*^9, {3.821811203295624*^9, 
+   3.8218112036548367`*^9}, {3.822041768762134*^9, 3.822041781290854*^9}, {
+   3.822048009752109*^9, 3.8220480569607773`*^9}, {3.822504877727007*^9, 
+   3.8225048874039307`*^9}, {3.822565447028533*^9, 3.822565457908236*^9}, {
+   3.822822107930128*^9, 3.822822113128089*^9}, {3.823176459993638*^9, 
+   3.823176470345335*^9}, {3.823359338529508*^9, 3.823359361520629*^9}, {
+   3.823422938182802*^9, 3.823422938584877*^9}, {3.823431880221382*^9, 
+   3.823431897644202*^9}, {3.82343570279051*^9, 3.823435714197551*^9}, {
+   3.8279532410864677`*^9, 3.8279532445579853`*^9}, {3.82795429722185*^9, 
+   3.827954302845343*^9}, {3.827956183129569*^9, 3.8279561871771517`*^9}, 
+   3.8510088216927958`*^9, {3.851065387457584*^9, 3.8510653950417137`*^9}, {
+   3.8510682768154383`*^9, 3.851068280871207*^9}, {3.8510997628523493`*^9, 
+   3.8510997737509108`*^9}, {3.851112556690555*^9, 3.851112614497939*^9}, {
+   3.861873084561179*^9, 3.861873110928751*^9}, 3.861873468099904*^9, {
+   3.862044418961834*^9, 3.862044450225502*^9}, {3.862217840411951*^9, 
+   3.862217846123966*^9}, {3.885642494073176*^9, 3.8856424959454937`*^9}, {
+   3.976563957414098*^9, 3.976563969939114*^9}, {3.9766267383871*^9, 
+   3.976626751346908*^9}, {3.976641846176968*^9, 3.97664187377738*^9}, {
+   3.976705427649239*^9, 3.976705447734488*^9}, 3.976706049112609*^9, {
+   3.976706244281049*^9, 3.9767062512716303`*^9}, {3.976706307237919*^9, 
+   3.976706308873199*^9}, {3.976709473881588*^9, 3.9767095289771748`*^9}, {
+   3.976788754738104*^9, 3.976788810224395*^9}},
+ TextAlignment->Center,ExpressionUUID->"1966685b-3b32-4898-91d7-3ff16571eae1"],
+
+Cell["\<\
+Geoff Cope
+University of Utah
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\|01040f\|01042d\|01044c\|010432\|010442\|010432\
+\|010449\|010445\|01042e\|01043b\|010428 \|010432\|010442 \|01040f\|01042d\
+\|01043b\|01042b
+January 7, 2026
+TP 270.L36\
+\>", "Author",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.},
+ CellChangeTimes->{{3.821729507652328*^9, 3.821729529657844*^9}, 
+   3.8220480097522783`*^9, {3.822048070235491*^9, 3.822048084689715*^9}, {
+   3.8225654346519403`*^9, 3.8225654361641483`*^9}, {3.8231764728567343`*^9, 
+   3.823176482313031*^9}, {3.8233640113399878`*^9, 3.823364023347041*^9}, {
+   3.8234229506702557`*^9, 3.823422956381791*^9}, {3.827953252419902*^9, 
+   3.827953254868108*^9}, {3.851065213363542*^9, 3.8510652255731983`*^9}, {
+   3.8510652620952*^9, 3.851065307413348*^9}, {3.85109882342251*^9, 
+   3.851098834342609*^9}, 3.851112556690649*^9, 3.861873468099978*^9, {
+   3.861874316220215*^9, 3.861874319756319*^9}, {3.976563971664147*^9, 
+   3.976563975864481*^9}, {3.976626768192091*^9, 3.976626768491643*^9}, {
+   3.976705473910036*^9, 3.976705474315426*^9}, {3.97678882510478*^9, 
+   3.976788825524452*^9}, {3.976789043164205*^9, 3.976789059709696*^9}},
+ TextAlignment->Center,ExpressionUUID->"f0d409bd-8421-4e88-b0ab-255c30259e6c"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{"HMX", " ", "Page", " ", "42"}], " ", "*)"}], 
+  "\[IndentingNewLine]", 
+  RowBox[{"(*", " ", 
+   RowBox[{"Octol", " ", "Page", " ", "61"}], " ", "*)"}]}]], "Input",
+ CellChangeTimes->{{3.976788832817375*^9, 
+  3.9767888616609087`*^9}},ExpressionUUID->"b5a86fe9-4b9d-4841-98ad-\
+2f018c61d35a"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Clear and Present Danger Description of HMX TNT Octol and Cellulose\
+\>", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ CellChangeTimes->{{3.9767890296863203`*^9, 
+  3.976789088450254*^9}},ExpressionUUID->"04820180-1ffa-4601-aa73-\
+b94d73f98032"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<HMX TNT Octol Cellulose\>\"", ",", "\[IndentingNewLine]", 
+   "\"\<https://www.youtube.com/watch?v=sV8j9j79cK8\>\""}], "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ CellChangeTimes->{{3.97678887091676*^9, 3.9767888733789454`*^9}, {
+  3.976789005738344*^9, 3.976789034178825*^9}},
+ CellLabel->"In[2]:=",ExpressionUUID->"97c80d55-4316-4140-a57c-9c75c6b52f87"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"HMX TNT Octol Cellulose\"", 
+   "https://www.youtube.com/watch?v=sV8j9j79cK8"},
+  "HyperlinkURL"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ CellChangeTimes->{{3.9767890279420424`*^9, 3.976789034179181*^9}},
+ CellLabel->"Out[2]=",ExpressionUUID->"5af2d62b-9f5a-4e84-901e-8b839bcb7859"]
+}, Open  ]]
+},
+WindowSize->{1263, 755},
+WindowMargins->{{-1174, Automatic}, {Automatic, 0}},
+FrontEndVersion->"13.0 for Mac OS X x86 (64-bit) (February 4, 2022)",
+StyleDefinitions->FrontEnd`FileName[{"Report"}, "StandardReport.nb", 
+  CharacterEncoding -> "UTF-8"],
+ExpressionUUID->"db5fdad4-3e58-42af-a4f8-05a71b55c284"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 1921, 28, 221, "Title",ExpressionUUID->"1966685b-3b32-4898-91d7-3ff16571eae1",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.}],
+Cell[2504, 52, 1265, 22, 112, "Author",ExpressionUUID->"f0d409bd-8421-4e88-b0ab-255c30259e6c",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.}]
+}, Open  ]],
+Cell[3784, 77, 350, 9, 63, "Input",ExpressionUUID->"b5a86fe9-4b9d-4841-98ad-2f018c61d35a"],
+Cell[CellGroupData[{
+Cell[4159, 90, 277, 6, 69, "Section",ExpressionUUID->"04820180-1ffa-4601-aa73-b94d73f98032",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
+Cell[4439, 98, 444, 8, 63, "Input",ExpressionUUID->"97c80d55-4316-4140-a57c-9c75c6b52f87",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
+Cell[4886, 108, 344, 7, 43, "Output",ExpressionUUID->"5af2d62b-9f5a-4e84-901e-8b839bcb7859",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.}]
+}, Open  ]]
+}
+]
+*)
+
