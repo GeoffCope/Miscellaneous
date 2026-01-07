@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     14040,        325]
-NotebookOptionsPosition[     10495,        257]
-NotebookOutlinePosition[     10965,        274]
-CellTagsIndexPosition[     10922,        271]
+NotebookDataLength[     16990,        394]
+NotebookOptionsPosition[     12627,        312]
+NotebookOutlinePosition[     13097,        329]
+CellTagsIndexPosition[     13054,        326]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -253,6 +253,61 @@ MakingMovies.html"},
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  CellChangeTimes->{3.9767929491657753`*^9, 3.9767930206975813`*^9},
  CellLabel->"Out[3]=",ExpressionUUID->"47c031fa-58fe-4fd5-8e2a-ad0edad0560e"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Per Bak Organized Criticality Paper and Avalanche Models", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.},
+ CellChangeTimes->{{3.976803148176753*^9, 
+  3.97680317146535*^9}},ExpressionUUID->"9a89eca0-fcbd-46a7-b9c9-\
+e72287eee47b"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<Per Bak Avalanches and 1/f Noise in Evolution and Growth Models\>\"", 
+   ",", "\[IndentingNewLine]", 
+   "\"\<https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.73.2162\>\"\
+"}], "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.},
+ CellChangeTimes->{{3.976803121186571*^9, 
+  3.976803155445222*^9}},ExpressionUUID->"502fc06a-4d8f-46d3-b8b8-\
+4bdea5146b43"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Discontinuous Initial Conditions (Dam Break Problem Using Heaviside or \
+Discontinuous Initial Conditions and Injecting Spurious High Frequency Modes \
+Which Must Be Taken Out)\
+\>", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.},
+ CellChangeTimes->{{3.976803275800127*^9, 
+  3.976803343038834*^9}},ExpressionUUID->"adee4b63-b5a7-4be9-bae6-\
+08126957b22d"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<Akil Narayan Teaching Homepage Fall 2018 Orthogonal Polynomials and \
+Spectral Methods For PDE's using discontinuous initial conditions\>\"", ",", 
+   "\[IndentingNewLine]", 
+   "\"\<https://www.sci.utah.edu/~akil/teaching.html\>\""}], "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.},
+ CellChangeTimes->{{3.976803230358433*^9, 3.976803287376252*^9}},
+ CellLabel->"In[9]:=",ExpressionUUID->"4b4a4ebd-ca5c-40bf-8b55-f92f11a1dec9"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"Akil Narayan Teaching Homepage Fall 2018 Orthogonal Polynomials and \
+Spectral Methods For PDE's using discontinuous initial conditions\"", 
+   "https://www.sci.utah.edu/~akil/teaching.html"},
+  "HyperlinkURL"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.},
+ CellChangeTimes->{{3.976803272762075*^9, 3.976803287376897*^9}},
+ CellLabel->"Out[9]=",ExpressionUUID->"c3db6f68-64be-4dfe-b471-9bf1c7b03502"]
 }, Closed]]
 },
 WindowSize->{1164, 655},
@@ -326,6 +381,20 @@ Cell[9547, 234, 504, 10, 63, "Input",ExpressionUUID->"a9a32c97-2c59-473c-815a-44
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
 Cell[10054, 246, 425, 8, 43, "Output",ExpressionUUID->"47c031fa-58fe-4fd5-8e2a-ad0edad0560e",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[10516, 259, 255, 4, 55, "Section",ExpressionUUID->"9a89eca0-fcbd-46a7-b9c9-e72287eee47b",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.}],
+Cell[10774, 265, 444, 10, 63, "Input",ExpressionUUID->"502fc06a-4d8f-46d3-b8b8-4bdea5146b43",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.}]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[11255, 280, 384, 8, 93, "Section",ExpressionUUID->"adee4b63-b5a7-4be9-bae6-08126957b22d",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
+Cell[11642, 290, 511, 9, 105, "Input",ExpressionUUID->"4b4a4ebd-ca5c-40bf-8b55-f92f11a1dec9",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
+Cell[12156, 301, 455, 8, 43, "Output",ExpressionUUID->"c3db6f68-64be-4dfe-b471-9bf1c7b03502",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.}]
 }, Closed]]
 }
 ]
