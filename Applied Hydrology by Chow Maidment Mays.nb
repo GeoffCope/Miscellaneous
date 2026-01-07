@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      5576,        130]
-NotebookOptionsPosition[      4440,        102]
-NotebookOutlinePosition[      4907,        119]
-CellTagsIndexPosition[      4864,        116]
+NotebookDataLength[     14040,        325]
+NotebookOptionsPosition[     10495,        257]
+NotebookOutlinePosition[     10965,        274]
+CellTagsIndexPosition[     10922,        271]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -98,10 +98,165 @@ Cell[BoxData[
  CellChangeTimes->{{3.976645995488064*^9, 3.976646000978908*^9}},
  CellLabel->
   "Out[230]=",ExpressionUUID->"36a49987-23b0-4e04-9874-92180d93f883"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Teton dam Break Wikipedia Article Page 333", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10004.},
+ CellChangeTimes->{{3.9767936313551903`*^9, 
+  3.9767936655450363`*^9}},ExpressionUUID->"3003c7c0-4239-4d2e-abb1-\
+c26149038898"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<Teton Dam Break Wikipedia Article\>\"", ",", 
+   "\"\<https://en.wikipedia.org/wiki/Teton_Dam\>\""}], "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10004.},
+ CellChangeTimes->{{3.976793608592269*^9, 3.976793635454015*^9}},
+ CellLabel->"In[6]:=",ExpressionUUID->"a565f3a1-caa6-4248-b2fe-8637386afb74"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"Teton Dam Break Wikipedia Article\"", 
+   "https://en.wikipedia.org/wiki/Teton_Dam"},
+  "HyperlinkURL"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10004.},
+ CellChangeTimes->{{3.976793626179881*^9, 3.9767936354543667`*^9}},
+ CellLabel->"Out[6]=",ExpressionUUID->"b1f85f14-c6dc-4794-9e56-e2b51abb8f89"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+DAMBRK Model Page 330 (Fread 1980 Citation)
+Page 2 \[OpenCurlyDoubleQuote]The Actual Failure Mechanics Are Not Well \
+Understood For Either Concrete or Earthen Dams\[CloseCurlyDoubleQuote] Page 3 \
+\[OpenCurlyDoubleQuote]Unknown Critical Values\[CloseCurlyDoubleQuote]\
+\>", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10003.},
+ CellChangeTimes->{{3.976793112176692*^9, 3.97679314231964*^9}, {
+  3.9767937409974422`*^9, 3.97679374618745*^9}, {3.9767938186537733`*^9, 
+  3.976793861570421*^9}, {3.976793947148934*^9, 
+  3.976793956716947*^9}},ExpressionUUID->"19d394e9-72b4-4f45-9d5e-\
+d7b9cdc93195"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<DAMBRK Model as Described on page 330\>\"", ",", 
+   "\"\<https://hdsc.nws.noaa.gov/pub/hdsc/data/papers/articles/HRL_Pubs_PDF_\
+May12_2009/HRL_PUBS_101-150/149_DAMBRK_THE_NWS_DAM-BREAK_FLOOD.pdf\>\""}], 
+  "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10003.},
+ CellChangeTimes->{
+  3.976792951539975*^9, 3.976793030702598*^9, {3.976793081343623*^9, 
+   3.976793129090259*^9}},ExpressionUUID->"4f3ba532-f3d0-4f10-af23-\
+e1d00598df8d"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"DAMBRL Model as Described on page 330\"", 
+   "https://hdsc.nws.noaa.gov/pub/hdsc/data/papers/articles/HRL_Pubs_PDF_\
+May12_2009/HRL_PUBS_101-150/149_DAMBRK_THE_NWS_DAM-BREAK_FLOOD.pdf"},
+  "HyperlinkURL"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10003.},
+ CellChangeTimes->{{3.976793110192822*^9, 3.976793117616637*^9}},
+ CellLabel->"Out[4]=",ExpressionUUID->"e67d8a2e-32fc-423f-b864-5ed61c8eace9"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Buffalo Creek Wikipedia Article For Page 29 of Fread Paper", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10004.},
+ CellChangeTimes->{{3.976794401972968*^9, 
+  3.9767944315529947`*^9}},ExpressionUUID->"4a3e25dc-740e-4902-b35e-\
+6095044b4c7d"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<Buffalo Creek Flood As Described on Page 29 of Fread paper\>\"", ",", 
+   "\[IndentingNewLine]", 
+   "\"\<https://en.wikipedia.org/wiki/Buffalo_Creek_flood\>\""}], 
+  "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10004.},
+ CellChangeTimes->{{3.976794218968238*^9, 3.976794244468343*^9}, 
+   3.976794409799156*^9},
+ CellLabel->"In[7]:=",ExpressionUUID->"d89cc50e-6238-43ed-8246-57eedb2b3a3a"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"Buffalo Creek Flood As Described on Page 29 of Fread paper\"", 
+   "https://en.wikipedia.org/wiki/Buffalo_Creek_flood"},
+  "HyperlinkURL"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10004.},
+ CellChangeTimes->{3.976794244838962*^9, 3.976794409799779*^9},
+ CellLabel->"Out[7]=",ExpressionUUID->"f0a58753-a07f-4f96-bf99-21461215f7e6"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Lake Bonneville Simulation", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.},
+ CellChangeTimes->{{3.976794382462941*^9, 
+  3.976794399961252*^9}},ExpressionUUID->"ba7d32b4-015d-4aee-a278-\
+fec9e4f55b5a"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<Lake Bonneville Dam Breach Simulation\>\"", ",", 
+   "\[IndentingNewLine]", 
+   "\"\<https://pubs.usgs.gov/publication/70196330\>\""}], "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.},
+ CellChangeTimes->{{3.976794364936686*^9, 3.976794386570356*^9}},
+ CellLabel->"In[8]:=",ExpressionUUID->"ccca0f79-f436-4908-9aab-dcb8af61002a"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"Lake Bonneville Dam Breach Simulation\"", 
+   "https://pubs.usgs.gov/publication/70196330"},
+  "HyperlinkURL"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.},
+ CellChangeTimes->{{3.976794380648221*^9, 3.976794386570833*^9}},
+ CellLabel->"Out[8]=",ExpressionUUID->"3b1c4e0e-bf2c-4e54-93eb-f25e8c4957be"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["LLNL Visit Visualization Tutorial on Dam Break Problem", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ CellChangeTimes->{{3.97679301601326*^9, 
+  3.976793028854883*^9}},ExpressionUUID->"4660199f-6d89-4212-9519-\
+f68c94beadf5"],
+
+Cell[BoxData[
+ RowBox[{"Hyperlink", "[", 
+  RowBox[{
+  "\"\<LLNL Visit Visualization Tutorial on Dam Break Problem\>\"", ",", 
+   "\[IndentingNewLine]", 
+   "\"\<https://visit-sphinx-github-user-manual.readthedocs.io/en/3.4rc/\
+tutorials/MakingMovies.html\>\""}], "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ CellChangeTimes->{{3.976792916897263*^9, 3.976792948696753*^9}, 
+   3.97679302069727*^9},
+ CellLabel->"In[3]:=",ExpressionUUID->"a9a32c97-2c59-473c-815a-445adbc68aea"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "\"LLNL Visit Visualization Tutorial on Dam Break Problem\"", 
+   "https://visit-sphinx-github-user-manual.readthedocs.io/en/3.4rc/tutorials/\
+MakingMovies.html"},
+  "HyperlinkURL"]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ CellChangeTimes->{3.9767929491657753`*^9, 3.9767930206975813`*^9},
+ CellLabel->"Out[3]=",ExpressionUUID->"47c031fa-58fe-4fd5-8e2a-ad0edad0560e"]
 }, Closed]]
 },
 WindowSize->{1164, 655},
-WindowMargins->{{15, Automatic}, {Automatic, 0}},
+WindowMargins->{{-1236, Automatic}, {Automatic, 0}},
 FrontEndVersion->"13.0 for Mac OS X x86 (64-bit) (February 4, 2022)",
 StyleDefinitions->FrontEnd`FileName[{"Report"}, "StandardReport.nb", 
   CharacterEncoding -> "UTF-8"],
@@ -131,6 +286,46 @@ Cell[3614, 79, 433, 10, 63, "Input",ExpressionUUID->"15a1063b-4b2e-4334-8826-c86
  CellGroupingRules->{"GroupTogetherGrouping", 10002.}],
 Cell[4050, 91, 374, 8, 43, "Output",ExpressionUUID->"36a49987-23b0-4e04-9874-92180d93f883",
  CellGroupingRules->{"GroupTogetherGrouping", 10002.}]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[4461, 104, 246, 4, 55, "Section",ExpressionUUID->"3003c7c0-4239-4d2e-abb1-c26149038898",
+ CellGroupingRules->{"GroupTogetherGrouping", 10004.}],
+Cell[4710, 110, 377, 7, 41, "Input",ExpressionUUID->"a565f3a1-caa6-4248-b2fe-8637386afb74",
+ CellGroupingRules->{"GroupTogetherGrouping", 10004.}],
+Cell[5090, 119, 350, 7, 43, "Output",ExpressionUUID->"b1f85f14-c6dc-4794-9e56-e2b51abb8f89",
+ CellGroupingRules->{"GroupTogetherGrouping", 10004.}]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[5477, 131, 622, 11, 131, "Section",ExpressionUUID->"19d394e9-72b4-4f45-9d5e-d7b9cdc93195",
+ CellGroupingRules->{"GroupTogetherGrouping", 10003.}],
+Cell[6102, 144, 512, 11, 84, "Input",ExpressionUUID->"4f3ba532-f3d0-4f10-af23-e1d00598df8d",
+ CellGroupingRules->{"GroupTogetherGrouping", 10003.}],
+Cell[6617, 157, 450, 8, 43, "Output",ExpressionUUID->"e67d8a2e-32fc-423f-b864-5ed61c8eace9",
+ CellGroupingRules->{"GroupTogetherGrouping", 10003.}]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[7104, 170, 260, 4, 55, "Section",ExpressionUUID->"4a3e25dc-740e-4902-b35e-6095044b4c7d",
+ CellGroupingRules->{"GroupTogetherGrouping", 10004.}],
+Cell[7367, 176, 468, 10, 63, "Input",ExpressionUUID->"d89cc50e-6238-43ed-8246-57eedb2b3a3a",
+ CellGroupingRules->{"GroupTogetherGrouping", 10004.}],
+Cell[7838, 188, 381, 7, 43, "Output",ExpressionUUID->"f0a58753-a07f-4f96-bf99-21461215f7e6",
+ CellGroupingRules->{"GroupTogetherGrouping", 10004.}]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[8256, 200, 226, 4, 55, "Section",ExpressionUUID->"ba7d32b4-015d-4aee-a278-fec9e4f55b5a",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.}],
+Cell[8485, 206, 411, 8, 63, "Input",ExpressionUUID->"ccca0f79-f436-4908-9aab-dcb8af61002a",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.}],
+Cell[8899, 216, 355, 7, 43, "Output",ExpressionUUID->"3b1c4e0e-bf2c-4e54-93eb-f25e8c4957be",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.}]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[9291, 228, 253, 4, 55, "Section",ExpressionUUID->"4660199f-6d89-4212-9519-f68c94beadf5",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
+Cell[9547, 234, 504, 10, 63, "Input",ExpressionUUID->"a9a32c97-2c59-473c-815a-445adbc68aea",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
+Cell[10054, 246, 425, 8, 43, "Output",ExpressionUUID->"47c031fa-58fe-4fd5-8e2a-ad0edad0560e",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.}]
 }, Closed]]
 }
 ]
